@@ -1,0 +1,143 @@
+/* Main Navigation */
+.menu {
+  margin-left: var(--spacing-8);
+}
+
+.menu ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: var(--spacing-4);
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  padding: var(--spacing-4);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.menu ul li a:hover {
+  opacity: 1;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-6);
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  color: var(--bs-navygri);
+  font-size: var(--font-size-sm);
+}
+
+.breadcrumb-item a {
+  color: var(--bs-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: var(--bs-800);
+}
+
+.breadcrumb-item:not(:last-child)::after {
+  content: '/';
+  margin-left: var(--spacing-2);
+  color: var(--bs-fourly);
+}
+
+.breadcrumb-item.active {
+  color: var(--bs-navygri);
+}
+
+/* Level Tabs */
+.level-tabs {
+  display: flex;
+  gap: var(--spacing-2);
+  justify-content: flex-start;
+  overflow-x: auto;
+  padding: var(--spacing-2);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.level-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.level-tab {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-5);
+  background: #fff;
+  border: 1.5px solid var(--bs-fourly);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+.level-tab:hover {
+  border-color: var(--bs-primary);
+  background: var(--bs-50);
+}
+
+.level-tab.active {
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(8, 28, 158, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Header Buttons */
+.msag {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.girisbtn {
+  padding: var(--spacing-4) var(--spacing-8);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.girisbtn:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.kayitbtn {
+  padding: var(--spacing-4) var(--spacing-8);
+  background: rgba(255, 255, 255, 0.13);
+  font-size: var(--font-size-sm);
+  border-radius: var(--radius-full);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.kayitbtn:hover {
+  background: #fff;
+  color: var(--bs-navy);
+}
