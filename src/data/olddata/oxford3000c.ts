@@ -603,7 +603,17 @@ export const oxford3000c: Word[] = [
     meaning: 'kesin, belli, bazı',
     examples: [
       { en: 'I am certain that you will succeed if you work hard.' },
-      ,
+      { en: 'There are certain rules that everyone must follow in this organization.' }
+    ]
+  },
+  {
+    word: 'uncertain',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ʌnˈsɜːrtən/',
+    meaning: 'kesin olmayan, belirsiz',
+    examples: [
+      { en: 'The outcome of the negotiations remains uncertain due to conflicting interests.' },
       { en: 'She felt uncertain about the future after losing her job.' }
     ]
   },
@@ -1550,7 +1560,17 @@ export const oxford3000c: Word[] = [
     meaning: 'rahat bir şekilde, konforlu olarak',
     examples: [
       { en: 'They sat comfortably in the living room and enjoyed the quiet afternoon.' },
-      ,
+      { en: 'She was able to work comfortably from home with her new setup.' }
+    ]
+  },
+  {
+    word: 'uncomfortable',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ʌnˈkʌmfərtəbl/',
+    meaning: 'rahatsız, konforsuz; huzursuz',
+    examples: [
+      { en: 'He felt uncomfortable in the crowded elevator during rush hour.' },
       { en: 'The chair was so hard that it made her feel uncomfortable after a long day.' }
     ]
   },
