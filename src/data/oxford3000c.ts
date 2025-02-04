@@ -2,25 +2,36 @@ import { Word } from './oxford3000.types';
 
 export const oxford3000c: Word[] = [
   {
+    word: 'c',
+    type: 'abbr.',
+    level: 'A2',
+    pronunciation: '/siː/',
+    meaning: 'Kısaltma olarak "cent" (örneğin para birimi c, 50 c = 50 cents)',
+    examples: [
+      { en: 'The price is listed as 50 c, which means 50 cents.' },
+      { en: 'In some financial documents, "c" is used as an abbreviation for cent.' }
+    ]
+  },
+  {
     word: 'cabinet',
     type: 'n.',
-    level: 'B2',
-    pronunciation: '/ˈkæbɪnət/',
-    meaning: 'dolap, kabine',
+    level: 'A2',
+    pronunciation: '/ˈkæbɪnɪt/',
+    meaning: 'dolap, büfe; (bazı durumlarda) yönetim kurulu',
     examples: [
-      { en: 'She stored the dishes in the kitchen cabinet.' },
-      { en: 'The cabinet met to discuss the crisis.' }
+      { en: 'She stored old photographs in a wooden cabinet in the attic for safekeeping.' },
+      { en: 'The government cabinet met to discuss the new policy proposals.' }
     ]
   },
   {
     word: 'cable',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈkeɪbl/',
-    meaning: 'kablo',
+    meaning: 'kablo, tel; (aynı zamanda kablolu TV anlamında da kullanılır)',
     examples: [
-      { en: 'Connect the power cable to the computer.' },
-      { en: 'The cable car took us up the mountain.' }
+      { en: 'He connected the cable to the television so that he could watch the live news broadcast.' },
+      { en: 'The technician replaced the old cable with a new one to ensure better signal quality.' }
     ]
   },
   {
@@ -28,65 +39,65 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/keɪk/',
-    meaning: 'pasta, kek',
+    meaning: 'kek, pasta',
     examples: [
-      { en: 'She baked a birthday cake.' },
-      { en: 'Would you like a piece of cake?' }
+      { en: 'She baked a delicious chocolate cake for her friend\'s birthday celebration.' },
+      { en: 'The cake was decorated with colorful frosting and sprinkles to make it extra festive.' }
     ]
   },
   {
     word: 'calculate',
     type: 'v.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈkælkjuleɪt/',
-    meaning: 'hesaplamak',
+    meaning: 'hesaplamak, değerlendirmek',
     examples: [
-      { en: 'Calculate the total cost.' },
-      { en: 'The computer can calculate the answer quickly.' }
+      { en: 'He used a calculator to accurately calculate the total cost of his shopping.' },
+      { en: 'It is important to calculate the risks before making any major decision.' }
     ]
   },
   {
     word: 'calculation',
     type: 'n.',
-    level: 'B2',
-    pronunciation: '/ˌkælkjuˈleɪʃn/',
-    meaning: 'hesaplama',
+    level: 'A2',
+    pronunciation: '/ˌkælkjəˈleɪʃən/',
+    meaning: 'hesaplama, işlem; yapılan hesap',
     examples: [
-      { en: 'According to my calculations, we need more time.' },
-      { en: 'There was an error in the calculation.' }
+      { en: 'Her calculation of the expenses was precise and left no room for error.' },
+      { en: 'The engineer double-checked his calculation before finalizing the design.' }
     ]
   },
   {
     word: 'call',
-    type: 'v., n.',
+    type: 'v., n. (be called)',
     level: 'A1',
     pronunciation: '/kɔːl/',
-    meaning: 'aramak, çağırmak',
+    meaning: 'aramak, çağırmak; telefon görüşmesi; “be called” = adlandırılmak',
     examples: [
-      { en: 'I will call you tomorrow.' },
-      { en: 'She received an important call.' }
+      { en: 'I will call you later when I have finished my work.' },
+      { en: 'He is called John by all his friends, which shows familiarity.' }
     ]
   },
   {
     word: 'calm',
-    type: 'adj., v., n.',
-    level: 'B1',
+    type: 'adj., v., n. (calmly adv.)',
+    level: 'A2',
     pronunciation: '/kɑːm/',
-    meaning: 'sakin',
+    meaning: 'sakin, huzurlu; sakinleştirmek; sakinlik, dinginlik',
     examples: [
-      { en: 'Keep calm and carry on.' },
-      { en: 'The sea was calm today.' }
+      { en: 'The calm sea provided a perfect setting for a relaxing afternoon by the beach.' },
+      { en: 'She tried to calm the crying baby by singing softly in his ear.' }
     ]
   },
   {
     word: 'camera',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/ˈkæmərə/',
+    pronunciation: '/ˈkæmrə/',
     meaning: 'kamera, fotoğraf makinesi',
     examples: [
-      { en: 'She bought a new digital camera.' },
-      { en: 'Smile for the camera!' }
+      { en: 'He bought a new camera to capture high-quality images during his travels.' },
+      { en: 'The photographer adjusted the camera settings to take pictures in low light.' }
     ]
   },
   {
@@ -94,10 +105,10 @@ export const oxford3000c: Word[] = [
     type: 'n., v.',
     level: 'A2',
     pronunciation: '/kæmp/',
-    meaning: 'kamp',
+    meaning: 'kamp, çadır; kamp yapmak, konaklamak',
     examples: [
-      { en: 'We set up camp near the lake.' },
-      { en: 'They camped in the forest.' }
+      { en: 'They set up a camp by the lake to spend a weekend in nature.' },
+      { en: 'Every summer, many families camp in the national park to enjoy the outdoors.' }
     ]
   },
   {
@@ -105,10 +116,10 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'B1',
     pronunciation: '/kæmˈpeɪn/',
-    meaning: 'kampanya',
+    meaning: 'kampanya, yürütülen dava, siyasi yarış',
     examples: [
-      { en: 'The advertising campaign was successful.' },
-      { en: 'He ran a political campaign.' }
+      { en: 'The candidate launched a vigorous campaign to win over undecided voters.' },
+      { en: 'A charity campaign was organized to raise funds for cancer research.' }
     ]
   },
   {
@@ -116,98 +127,120 @@ export const oxford3000c: Word[] = [
     type: 'modal v., n.',
     level: 'A1',
     pronunciation: '/kæn/',
-    meaning: '-ebilmek',
+    meaning: 'yapabilmek, eylem izni; (aynı zamanda) konserve kutusu',
     examples: [
-      { en: 'I can speak three languages.' },
-      { en: 'Can you help me?' }
+      { en: 'She can speak three languages fluently.' },
+      { en: 'He opened a can of soup for a quick lunch.' }
+    ]
+  },
+  {
+    word: 'cannot',
+    type: 'modal v.',
+    level: 'A1',
+    pronunciation: '/ˈkænɒt/',
+    meaning: 'yapamaz, edemez',
+    examples: [
+      { en: 'I cannot attend the meeting because I have another appointment.' },
+      { en: 'They cannot afford to buy a new car at the moment.' }
+    ]
+  },
+  {
+    word: 'could',
+    type: 'modal v.',
+    level: 'A1',
+    pronunciation: '/kʊd/',
+    meaning: 'yapabilirdi, edebilirdi; geçmişteki yetenek veya olasılık',
+    examples: [
+      { en: 'When I was younger, I could run a mile in under six minutes.' },
+      { en: 'Could you please help me lift this heavy box?' }
     ]
   },
   {
     word: 'cancel',
     type: 'v.',
-    level: 'B1',
-    pronunciation: '/ˈkænsl/',
-    meaning: 'iptal etmek',
+    level: 'A2',
+    pronunciation: '/ˈkænsəl/',
+    meaning: 'iptal etmek, feshetmek',
     examples: [
-      { en: 'The flight was cancelled due to bad weather.' },
-      { en: 'I need to cancel my appointment.' }
+      { en: 'They had to cancel the outdoor event because of the sudden storm.' },
+      { en: 'Please cancel my appointment for tomorrow if possible.' }
     ]
   },
   {
     word: 'cancer',
     type: 'n.',
     level: 'B2',
-    pronunciation: '/ˈkænsə(r)/',
-    meaning: 'kanser',
+    pronunciation: '/ˈkænsər/',
+    meaning: 'kanser, kötü huylu tümör',
     examples: [
-      { en: 'They are researching new cancer treatments.' },
-      { en: 'He survived lung cancer.' }
+      { en: 'Early detection of cancer can significantly improve treatment outcomes.' },
+      { en: 'Many organizations are dedicated to funding cancer research.' }
     ]
   },
   {
     word: 'candidate',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/ˈkændɪdət/',
-    meaning: 'aday',
+    pronunciation: '/ˈkændɪdeɪt/',
+    meaning: 'aday, yarışmacı',
     examples: [
-      { en: 'She is a candidate for the position.' },
-      { en: 'There are three candidates in the election.' }
+      { en: 'The candidate presented a clear vision for the future during the debate.' },
+      { en: 'She is considered a strong candidate for the managerial position.' }
     ]
   },
   {
     word: 'candy',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/ˈkændi/',
-    meaning: 'şeker',
+    meaning: 'şeker, şekerleme',
     examples: [
-      { en: 'Children love candy.' },
-      { en: 'No candy before dinner!' }
+      { en: 'The children were delighted to receive candy at the school party.' },
+      { en: 'He bought a bag of candy to share with his classmates on Halloween.' }
     ]
   },
   {
     word: 'cap',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/kæp/',
-    meaning: 'şapka, kapak',
+    meaning: 'şapka, bere; kapak',
     examples: [
-      { en: 'He wore a baseball cap.' },
-      { en: 'Put the cap back on the bottle.' }
+      { en: 'He wore a baseball cap to shield his eyes from the sun.' },
+      { en: 'The bottle came with a secure cap to prevent any leakage.' }
     ]
   },
   {
-    word: 'capable',
+    word: 'capable (of)',
     type: 'adj.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/ˈkeɪpəbl/',
-    meaning: 'yetenekli, muktedir',
+    meaning: 'yetenekli, becerikli; -ebilmek',
     examples: [
-      { en: 'She is capable of doing great things.' },
-      { en: 'A capable manager.' }
+      { en: 'She is capable of solving complex problems with ease.' },
+      { en: 'The machine is capable of operating under extreme conditions.' }
     ]
   },
   {
     word: 'capacity',
     type: 'n.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/kəˈpæsəti/',
-    meaning: 'kapasite',
+    meaning: 'kapasite, hacim; yetenek, potansiyel',
     examples: [
-      { en: 'The stadium has a capacity of 50,000.' },
-      { en: 'Working at full capacity.' }
+      { en: 'The auditorium has a seating capacity of over 1,000 people.' },
+      { en: 'His capacity for learning new languages is truly impressive.' }
     ]
   },
   {
     word: 'capital',
     type: 'n., adj.',
-    level: 'A1',
+    level: 'A2/B1',
     pronunciation: '/ˈkæpɪtl/',
-    meaning: 'başkent, sermaye',
+    meaning: 'başkent; önemli, ana; sermaye (iş dünyasında)',
     examples: [
-      { en: 'London is the capital of England.' },
-      { en: 'They need more capital to expand.' }
+      { en: 'London is the capital of England and a major global financial center.' },
+      { en: 'They invested their capital wisely to grow the business.' }
     ]
   },
   {
@@ -215,98 +248,98 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A2',
     pronunciation: '/ˈkæptɪn/',
-    meaning: 'kaptan',
+    meaning: 'kaptan, lider; (deniz, uçak vb.) gemi kaptanı',
     examples: [
-      { en: 'The captain of the ship.' },
-      { en: 'Team captain.' }
+      { en: 'The captain of the ship ensured that all safety protocols were followed.' },
+      { en: 'She was appointed captain of the soccer team because of her leadership skills.' }
     ]
   },
   {
     word: 'capture',
     type: 'v., n.',
-    level: 'B2',
-    pronunciation: '/ˈkæptʃə(r)/',
-    meaning: 'yakalamak, ele geçirmek',
+    level: 'B1',
+    pronunciation: '/ˈkæptʃər/',
+    meaning: 'ele geçirmek, yakalamak; yakalama, tutuklama',
     examples: [
-      { en: 'Capture the moment on camera.' },
-      { en: 'The police captured the thief.' }
+      { en: 'The photographer managed to capture a stunning image of the sunset.' },
+      { en: 'The army was able to capture the enemy base after a fierce battle.' }
     ]
   },
   {
     word: 'car',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/kɑː(r)/',
-    meaning: 'araba',
+    pronunciation: '/kɑːr/',
+    meaning: 'araba, otomobil',
     examples: [
-      { en: 'Drive a car.' },
-      { en: 'Park the car.' }
+      { en: 'She drives a red car that is both stylish and efficient.' },
+      { en: 'The car broke down on the highway during their road trip.' }
     ]
   },
   {
     word: 'card',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/kɑːd/',
-    meaning: 'kart',
+    pronunciation: '/kɑːrd/',
+    meaning: 'kart, kredi kartı, tebrik kartı',
     examples: [
-      { en: 'Credit card.' },
-      { en: 'Birthday card.' }
+      { en: 'He received a birthday card filled with heartfelt wishes.' },
+      { en: 'Please insert your card into the machine to withdraw cash.' }
     ]
   },
   {
     word: 'care',
-    type: 'n., v.',
-    level: 'A2',
-    pronunciation: '/keə(r)/',
-    meaning: 'özen, ilgilenmek',
+    type: 'n., v. (take care (of), care for)',
+    level: 'A1',
+    pronunciation: '/keər/',
+    meaning: 'özen, ilgi; bakmak, önem vermek',
     examples: [
-      { en: 'Take care of yourself.' },
-      { en: 'I dont care.' }
+      { en: 'Parents should always take care of their children with love and attention.' },
+      { en: 'She cares for her elderly neighbor by helping with daily chores.' }
     ]
   },
   {
     word: 'career',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/kəˈrɪə(r)/',
-    meaning: 'kariyer',
+    pronunciation: '/kəˈrɪər/',
+    meaning: 'kariyer, meslek yaşamı',
     examples: [
-      { en: 'Choose a career.' },
-      { en: 'Career opportunities.' }
+      { en: 'He is building a successful career in the field of technology.' },
+      { en: 'Choosing a career that matches your passion is very important.' }
     ]
   },
   {
     word: 'careful',
-    type: 'adj.',
+    type: 'adj., carefully adv.',
     level: 'A2',
-    pronunciation: '/ˈkeəfl/',
-    meaning: 'dikkatli',
+    pronunciation: '/ˈkeərfəl/',
+    meaning: 'dikkatli, özenli',
     examples: [
-      { en: 'Be careful!' },
-      { en: 'Careful planning.' }
+      { en: 'Be careful when handling fragile items to avoid any damage.' },
+      { en: 'She worked carefully on the project to ensure that every detail was perfect.' }
     ]
   },
   {
     word: 'careless',
-    type: 'adj.',
-    level: 'B1',
-    pronunciation: '/ˈkeələs/',
-    meaning: 'dikkatsiz',
+    type: 'adj., carelessly adv.',
+    level: 'A2',
+    pronunciation: '/ˈkɛərləs/',
+    meaning: 'dikkatsiz, özensiz',
     examples: [
-      { en: 'A careless mistake.' },
-      { en: 'Dont be careless with money.' }
+      { en: 'His careless mistake cost the company a lot of money.' },
+      { en: 'Driving carelessly in heavy traffic can lead to serious accidents.' }
     ]
   },
   {
     word: 'carpet',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˈkɑːpɪt/',
-    meaning: 'halı',
+    level: 'A1',
+    pronunciation: '/ˈkɑːrpɪt/',
+    meaning: 'halı, kilim',
     examples: [
-      { en: 'Clean the carpet.' },
-      { en: 'A red carpet.' }
+      { en: 'The living room was adorned with a beautiful, soft carpet that added warmth to the space.' },
+      { en: 'They decided to replace the old carpet with a new one to freshen up the room.' }
     ]
   },
   {
@@ -314,10 +347,10 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈkærət/',
-    meaning: 'havuç',
+    meaning: 'havuç, turp benzeri sebze',
     examples: [
-      { en: 'Raw carrots.' },
-      { en: 'Carrot cake.' }
+      { en: 'She chopped fresh carrots to add a crunchy texture to the salad.' },
+      { en: 'Carrots are rich in vitamin A and are essential for good eyesight.' }
     ]
   },
   {
@@ -325,10 +358,10 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'A1',
     pronunciation: '/ˈkæri/',
-    meaning: 'taşımak',
+    meaning: 'taşımak, götürmek',
     examples: [
-      { en: 'Carry a bag.' },
-      { en: 'The wind carries the sound.' }
+      { en: 'Please carry this heavy box to the truck with care.' },
+      { en: 'She always carries a book in her bag to read during her commute.' }
     ]
   },
   {
@@ -336,43 +369,43 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A2',
     pronunciation: '/keɪs/',
-    meaning: 'durum, vaka',
+    meaning: 'durum, vaka; kılıf, kutu; "in case of" = durumunda',
     examples: [
-      { en: 'In this case.' },
-      { en: 'A special case.' }
+      { en: 'In case of an emergency, please follow the safety instructions posted here.' },
+      { en: 'The detective examined every case carefully to uncover the truth.' }
     ]
   },
   {
     word: 'cash',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/kæʃ/',
-    meaning: 'nakit',
+    meaning: 'nakit para, el para',
     examples: [
-      { en: 'Pay in cash.' },
-      { en: 'Cash machine.' }
+      { en: 'He paid for the groceries in cash at the checkout counter.' },
+      { en: 'It is always wise to keep some cash on hand for small expenses.' }
     ]
   },
   {
     word: 'cast',
     type: 'v., n.',
-    level: 'B2',
-    pronunciation: '/kɑːst/',
-    meaning: 'atmak, oyuncu kadrosu',
+    level: 'A2',
+    pronunciation: '/kæst/',
+    meaning: 'dökme, kaydetme; oyuncu kadrosu, topluluk; fırlatmak',
     examples: [
-      { en: 'Cast a shadow.' },
-      { en: 'The cast of the movie.' }
+      { en: 'The director cast her in the lead role for the new play.' },
+      { en: 'He cast his fishing line into the river and waited patiently for a bite.' }
     ]
   },
   {
     word: 'castle',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/ˈkɑːsl/',
+    pronunciation: '/ˈkæsəl/',
     meaning: 'kale, şato',
     examples: [
-      { en: 'Medieval castle.' },
-      { en: 'Visit the castle.' }
+      { en: 'The medieval castle attracted tourists from all over the world.' },
+      { en: 'They explored the ancient castle and marveled at its impressive architecture.' }
     ]
   },
   {
@@ -382,173 +415,217 @@ export const oxford3000c: Word[] = [
     pronunciation: '/kæt/',
     meaning: 'kedi',
     examples: [
-      { en: 'Pet the cat.' },
-      { en: 'Black cat.' }
+      { en: 'The cat slept peacefully on the sunny windowsill all afternoon.' },
+      { en: 'She adopted a stray cat and gave it a loving home.' }
     ]
   },
   {
     word: 'catch',
     type: 'v.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/kætʃ/',
-    meaning: 'yakalamak',
+    meaning: 'yakalamak, tutmak; (top, tren vb.) yakalamak',
     examples: [
-      { en: 'Catch the ball.' },
-      { en: 'Catch a cold.' }
+      { en: 'He managed to catch the ball during the intense game.' },
+      { en: 'She ran quickly to catch the bus before it left the station.' }
     ]
   },
   {
     word: 'category',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/ˈkætəɡəri/',
-    meaning: 'kategori',
+    pronunciation: '/ˈkætəɡɔːri/',
+    meaning: 'kategori, sınıf; çeşit',
     examples: [
-      { en: 'Different categories.' },
-      { en: 'Fall into a category.' }
+      { en: 'The products are organized into several categories based on their use.' },
+      { en: 'She enjoys reading books in the mystery category the most.' }
     ]
   },
   {
     word: 'cause',
     type: 'n., v.',
-    level: 'A2',
+    level: 'B1',
     pronunciation: '/kɔːz/',
-    meaning: 'sebep, neden olmak',
+    meaning: 'sebep, neden; sebep olmak, yol açmak',
     examples: [
-      { en: 'The cause of the problem.' },
-      { en: 'Cause trouble.' }
+      { en: 'Poor maintenance can be a cause of many mechanical failures.' },
+      { en: 'The heavy rains caused flooding in several low-lying areas.' }
     ]
   },
   {
     word: 'CD',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/ˌsiː ˈdiː/',
-    meaning: 'CD',
+    pronunciation: '/siːdiː/',
+    meaning: 'CD, kompakt disk',
     examples: [
-      { en: 'Music CD.' },
-      { en: 'Burn a CD.' }
+      { en: 'He bought a new CD of his favorite band and listened to it repeatedly.' },
+      { en: 'The album was released on CD as well as in digital format.' }
     ]
   },
   {
     word: 'cease',
     type: 'v.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/siːs/',
-    meaning: 'durmak, son vermek',
+    meaning: 'son vermek, durmak, bitirmek',
     examples: [
-      { en: 'Cease fire.' },
-      { en: 'The rain ceased.' }
+      { en: 'The company decided to cease production of the outdated model.' },
+      { en: 'After a long debate, the noise finally ceased in the busy hallway.' }
     ]
   },
   {
     word: 'ceiling',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈsiːlɪŋ/',
-    meaning: 'tavan',
+    meaning: 'tavan, üst yüzey',
     examples: [
-      { en: 'High ceiling.' },
-      { en: 'Paint the ceiling.' }
+      { en: 'The room had a high ceiling that made it feel more spacious.' },
+      { en: 'They painted the ceiling white to reflect more light into the room.' }
     ]
   },
   {
     word: 'celebrate',
     type: 'v.',
-    level: 'A2',
-    pronunciation: '/ˈselɪbreɪt/',
-    meaning: 'kutlamak',
+    level: 'A1',
+    pronunciation: '/ˈsɛlɪbreɪt/',
+    meaning: 'kutlamak, bayram etmek',
     examples: [
-      { en: 'Celebrate birthday.' },
-      { en: 'Celebrate success.' }
+      { en: 'They plan to celebrate their anniversary with a large party and dinner.' },
+      { en: 'We gathered to celebrate her promotion and new opportunities.' }
     ]
   },
   {
     word: 'celebration',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/ˌselɪˈbreɪʃn/',
-    meaning: 'kutlama',
+    level: 'A1',
+    pronunciation: '/ˌsɛlɪˈbreɪʃən/',
+    meaning: 'kutlama, bayram, coşku',
     examples: [
-      { en: 'Birthday celebration.' },
-      { en: 'Join the celebration.' }
+      { en: 'The celebration of the festival lasted for several days with music and dancing.' },
+      { en: 'Her graduation was marked by a grand celebration with family and friends.' }
     ]
   },
   {
     word: 'cell',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/sel/',
-    meaning: 'hücre',
+    level: 'A2',
+    pronunciation: '/sɛl/',
+    meaning: 'hücre; cep telefonu anlamında da kullanılır',
     examples: [
-      { en: 'Blood cells.' },
-      { en: 'Prison cell.' }
+      { en: 'The human body is made up of millions of cells that work together.' },
+      { en: 'He forgot his cell phone at home and could not reach anyone all day.' }
+    ]
+  },
+  {
+    word: 'cell phone (also cellular phone)',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/sɛl foʊn/',
+    meaning: 'cep telefonu',
+    examples: [
+      { en: 'She uses her cell phone to stay connected with friends and family.' },
+      { en: 'Modern cell phones have many features beyond just making calls.' }
     ]
   },
   {
     word: 'cent',
-    type: 'n.',
+    type: 'n. (abbr. c, ct.)',
     level: 'A1',
-    pronunciation: '/sent/',
-    meaning: 'sent',
+    pronunciation: '/sɛnt/',
+    meaning: 'sent, kuruş; 1/100 dolar',
     examples: [
-      { en: 'Fifty cents.' },
-      { en: 'Per cent.' }
+      { en: 'One dollar is equal to 100 cents.' },
+      { en: 'The price of the item is 50 cents, which is very affordable.' }
     ]
   },
   {
     word: 'center',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/ˈsentə(r)/',
-    meaning: 'merkez',
+    pronunciation: '/ˈsɛntər/',
+    meaning: 'merkez, orta nokta',
     examples: [
-      { en: 'City center.' },
-      { en: 'Shopping center.' }
+      { en: 'The shopping center is located in the heart of the city.' },
+      { en: 'They met at the community center to discuss local issues.' }
+    ]
+  },
+  {
+    word: 'centimeter',
+    type: 'n. (abbr. cm)',
+    level: 'A1',
+    pronunciation: '/ˈsɛntɪˌmiːtər/',
+    meaning: 'santimetre, 1/100 metre',
+    examples: [
+      { en: 'Measure the length of the table in centimeters for accuracy.' },
+      { en: 'The tailor took her measurements in centimeters to ensure a perfect fit.' }
     ]
   },
   {
     word: 'central',
     type: 'adj.',
-    level: 'B1',
-    pronunciation: '/ˈsentrəl/',
-    meaning: 'merkezi',
+    level: 'A2',
+    pronunciation: '/ˈsɛntrəl/',
+    meaning: 'merkezi, ortada bulunan',
     examples: [
-      { en: 'Central location.' },
-      { en: 'Central heating.' }
+      { en: 'They live in a central location that makes commuting very convenient.' },
+      { en: 'The central park is a popular spot for relaxation in the busy city.' }
     ]
   },
   {
     word: 'century',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/ˈsentʃəri/',
-    meaning: 'yüzyıl',
+    pronunciation: '/ˈsɛntʃəri/',
+    meaning: 'yüzyıl, 100 yıl',
     examples: [
-      { en: '21st century.' },
-      { en: 'Last century.' }
+      { en: 'The building has stood for over a century and has seen many historical events.' },
+      { en: 'Art from the 18th century is displayed in the museum.' }
     ]
   },
   {
     word: 'ceremony',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/ˈserəməni/',
-    meaning: 'tören',
+    level: 'A2',
+    pronunciation: '/ˈsɛrəmoʊni/',
+    meaning: 'tören, seremonya',
     examples: [
-      { en: 'Wedding ceremony.' },
-      { en: 'Opening ceremony.' }
+      { en: 'The graduation ceremony was a memorable event for all the students.' },
+      { en: 'They held a traditional ceremony to celebrate the cultural festival.' }
     ]
   },
   {
     word: 'certain',
-    type: 'adj.',
+    type: 'adj., pron. (certainly adv.)',
     level: 'A2',
-    pronunciation: '/ˈsɜːtn/',
-    meaning: 'kesin, emin',
+    pronunciation: '/ˈsɜːrtən/',
+    meaning: 'kesin, belli, bazı',
     examples: [
-      { en: 'Are you certain?' },
-      { en: 'Certain death.' }
+      { en: 'I am certain that you will succeed if you work hard.' },
+      { en: 'There are certain rules that everyone must follow in this organization.' }
+    ]
+  },
+  {
+    word: 'uncertain',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ʌnˈsɜːrtən/',
+    meaning: 'kesin olmayan, belirsiz',
+    examples: [
+      { en: 'The outcome of the negotiations remains uncertain due to conflicting interests.' },
+      { en: 'She felt uncertain about the future after losing her job.' }
+    ]
+  },
+  {
+    word: 'certificate',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/sərˈtɪfɪkət/',
+    meaning: 'sertifika, belge',
+    examples: [
+      { en: 'He received a certificate of completion after finishing the course.' },
+      { en: 'The certificate verifies that she has met all the requirements for the program.' }
     ]
   },
   {
@@ -556,32 +633,32 @@ export const oxford3000c: Word[] = [
     type: 'n., v.',
     level: 'B1',
     pronunciation: '/tʃeɪn/',
-    meaning: 'zincir',
+    meaning: 'zincir, bağ; bağlamak, zincirlemek',
     examples: [
-      { en: 'Bicycle chain.' },
-      { en: 'Chain of events.' }
+      { en: 'The old bike was secured with a heavy chain to prevent theft.' },
+      { en: 'They chained the boxes together to make transportation easier.' }
     ]
   },
   {
     word: 'chair',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/tʃeə(r)/',
-    meaning: 'sandalye',
+    pronunciation: '/tʃɛər/',
+    meaning: 'sandalye; toplantıda oturulan koltuk; (toplantı) başkanı',
     examples: [
-      { en: 'Sit on a chair.' },
-      { en: 'Office chair.' }
+      { en: 'Please take a seat on the comfortable chair by the window.' },
+      { en: 'The chairman of the board called the meeting to order.' }
     ]
   },
   {
-    word: 'chairman',
+    word: 'chairman, chairwoman',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/ˈtʃeəmən/',
-    meaning: 'başkan',
+    pronunciation: '/ˈtʃɛərmən, ˈtʃɛərwʊmən/',
+    meaning: 'toplantı başkanı, yönetim kurulu başkanı (erkek/kadın)',
     examples: [
-      { en: 'Company chairman.' },
-      { en: 'Board chairman.' }
+      { en: 'The chairman addressed the employees with confidence and clarity.' },
+      { en: 'She was elected as the chairwoman because of her excellent leadership skills.' }
     ]
   },
   {
@@ -589,32 +666,32 @@ export const oxford3000c: Word[] = [
     type: 'n., v.',
     level: 'B1',
     pronunciation: '/ˈtʃælɪndʒ/',
-    meaning: 'meydan okuma, zorluk',
+    meaning: 'zorluk, meydan okuma; meydan okumak, zorlamak',
     examples: [
-      { en: 'Face a challenge.' },
-      { en: 'Challenge accepted.' }
+      { en: 'Climbing the steep mountain was a challenge that tested their endurance.' },
+      { en: 'He challenged himself to learn a new skill every year.' }
     ]
   },
   {
     word: 'chamber',
     type: 'n.',
     level: 'B2',
-    pronunciation: '/ˈtʃeɪmbə(r)/',
-    meaning: 'oda, meclis',
+    pronunciation: '/ˈtʃeɪmbər/',
+    meaning: 'oda, salon; (resmi) meclis, kurul odası',
     examples: [
-      { en: 'Chamber of commerce.' },
-      { en: 'Chamber music.' }
+      { en: 'The parliament met in a grand chamber with high ceilings and ornate decorations.' },
+      { en: 'A secret chamber in the castle revealed hidden treasures from ancient times.' }
     ]
   },
   {
     word: 'chance',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/tʃɑːns/',
-    meaning: 'şans, fırsat',
+    level: 'A1',
+    pronunciation: '/tʃæns/',
+    meaning: 'fırsat, olasılık; rastlantı',
     examples: [
-      { en: 'Take a chance.' },
-      { en: 'By chance.' }
+      { en: 'There is a good chance that we will win the game if we work together.' },
+      { en: 'She took a chance on a new career path that promised both challenges and rewards.' }
     ]
   },
   {
@@ -622,120 +699,120 @@ export const oxford3000c: Word[] = [
     type: 'v., n.',
     level: 'A1',
     pronunciation: '/tʃeɪndʒ/',
-    meaning: 'değişmek, değişim',
+    meaning: 'değişmek, değiştirmek; değişiklik, farklılık',
     examples: [
-      { en: 'Change clothes.' },
-      { en: 'Climate change.' }
+      { en: 'It is important to change your habits to achieve better health.' },
+      { en: 'The change in leadership brought many new ideas to the organization.' }
     ]
   },
   {
     word: 'channel',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/ˈtʃænl/',
-    meaning: 'kanal',
+    level: 'A2',
+    pronunciation: '/ˈtʃænəl/',
+    meaning: 'kanal; (TV) kanal, yol',
     examples: [
-      { en: 'TV channel.' },
-      { en: 'English Channel.' }
+      { en: 'The news is broadcast on a popular channel every evening.' },
+      { en: 'They sailed through the narrow channel between the two islands.' }
     ]
   },
   {
     word: 'chapter',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˈtʃæptə(r)/',
-    meaning: 'bölüm',
+    level: 'A1',
+    pronunciation: '/ˈtʃæptər/',
+    meaning: 'bölüm, kısım; (kitap) bölüm',
     examples: [
-      { en: 'First chapter.' },
-      { en: 'Chapter ends.' }
+      { en: 'I read the first chapter of the novel in one sitting because it was so engaging.' },
+      { en: 'Each chapter of the book provides new insights into the story.' }
     ]
   },
   {
     word: 'character',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˈkærəktə(r)/',
-    meaning: 'karakter',
+    level: 'A1',
+    pronunciation: '/ˈkærəktər/',
+    meaning: 'karakter, kişilik; hikayedeki rol, figür',
     examples: [
-      { en: 'Main character.' },
-      { en: 'Strong character.' }
+      { en: 'The main character in the story faces many challenges throughout his journey.' },
+      { en: 'Her strong character and determination make her a role model for others.' }
     ]
   },
   {
     word: 'characteristic',
     type: 'adj., n.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/ˌkærəktəˈrɪstɪk/',
-    meaning: 'karakteristik',
+    meaning: 'ayırt edici özellik, nitelik; tipik, karakteristik',
     examples: [
-      { en: 'Characteristic feature.' },
-      { en: 'Personal characteristics.' }
+      { en: 'One characteristic of a great leader is the ability to listen carefully.' },
+      { en: 'The characteristic flavor of the dish comes from a blend of exotic spices.' }
     ]
   },
   {
     word: 'charge',
-    type: 'n., v.',
-    level: 'B1',
-    pronunciation: '/tʃɑːdʒ/',
-    meaning: 'ücret, şarj etmek',
+    type: 'n., v. (in charge of)',
+    level: 'A2',
+    pronunciation: '/tʃɑːrdʒ/',
+    meaning: 'ücret, bedel; yüklemek, sorumlu olmak; emretmek',
     examples: [
-      { en: 'Service charge.' },
-      { en: 'Charge the battery.' }
+      { en: 'The total charge for the service was clearly listed on the receipt.' },
+      { en: 'She was in charge of the project and ensured everything ran smoothly.' }
     ]
   },
   {
     word: 'charity',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈtʃærəti/',
-    meaning: 'hayır kurumu',
+    meaning: 'hayır kurumu, bağış; iyilikseverlik',
     examples: [
-      { en: 'Charity work.' },
-      { en: 'Give to charity.' }
+      { en: 'The charity organized a fundraiser to help those affected by the flood.' },
+      { en: 'Donating to charity is a noble way to help those in need.' }
     ]
   },
   {
     word: 'chart',
     type: 'n., v.',
-    level: 'A2',
-    pronunciation: '/tʃɑːt/',
-    meaning: 'grafik, tablo',
+    level: 'B1',
+    pronunciation: '/tʃɑːrt/',
+    meaning: 'grafik, tablo; çizmek, planlamak',
     examples: [
-      { en: 'Flow chart.' },
-      { en: 'Chart progress.' }
+      { en: 'The chart clearly showed the growth in sales over the past quarter.' },
+      { en: 'They charted a course for the project that included all the key milestones.' }
     ]
   },
   {
     word: 'chase',
     type: 'v., n.',
-    level: 'B2',
+    level: 'A2',
     pronunciation: '/tʃeɪs/',
-    meaning: 'kovalamak',
+    meaning: 'kovalamak, peşinden gitmek; kovalama, kovalamaca',
     examples: [
-      { en: 'Chase a thief.' },
-      { en: 'Police chase.' }
+      { en: 'The dog began to chase the ball as soon as it was thrown across the field.' },
+      { en: 'A thrilling chase through the busy streets kept the audience on the edge of their seats.' }
     ]
   },
   {
     word: 'chat',
     type: 'v., n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/tʃæt/',
-    meaning: 'sohbet etmek',
+    meaning: 'sohbet etmek, gevezelik yapmak; sohbet, muhabbet',
     examples: [
-      { en: 'Chat with friends.' },
-      { en: 'Online chat.' }
+      { en: 'They like to chat about their daily experiences over coffee.' },
+      { en: 'A friendly chat can brighten even the dullest day.' }
     ]
   },
   {
     word: 'cheap',
-    type: 'adj.',
+    type: 'adj., cheaply adv.',
     level: 'A1',
     pronunciation: '/tʃiːp/',
-    meaning: 'ucuz',
+    meaning: 'ucuz, düşük fiyatlı; ucuza, ekonomik olarak',
     examples: [
-      { en: 'Cheap tickets.' },
-      { en: 'Buy cheap.' }
+      { en: 'The store offers cheap products without compromising on quality.' },
+      { en: 'She bought a new dress cheaply during the clearance sale.' }
     ]
   },
   {
@@ -743,43 +820,43 @@ export const oxford3000c: Word[] = [
     type: 'v., n.',
     level: 'B1',
     pronunciation: '/tʃiːt/',
-    meaning: 'hile yapmak',
+    meaning: 'hile yapmak, dolandırmak; hile, aldatma',
     examples: [
-      { en: 'Cheat on a test.' },
-      { en: 'Catch a cheat.' }
+      { en: 'It is wrong to cheat on exams, as it undermines fair competition.' },
+      { en: 'He was caught in a cheat during the card game and was asked to leave.' }
     ]
   },
   {
     word: 'check',
     type: 'v., n.',
     level: 'A1',
-    pronunciation: '/tʃek/',
-    meaning: 'kontrol etmek',
+    pronunciation: '/tʃɛk/',
+    meaning: 'kontrol etmek, gözden geçirmek; çek, kontrol',
     examples: [
-      { en: 'Check email.' },
-      { en: 'Health check.' }
+      { en: 'Please check your answers before submitting the test to avoid mistakes.' },
+      { en: 'He wrote a check to pay for the groceries at the supermarket.' }
     ]
   },
   {
     word: 'cheek',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/tʃiːk/',
-    meaning: 'yanak',
+    meaning: 'yan, yüzün yan kısmı',
     examples: [
-      { en: 'Kiss on the cheek.' },
-      { en: 'Rosy cheeks.' }
+      { en: 'Her rosy cheeks showed how happy she was after playing outside.' },
+      { en: 'He gently kissed her cheek as a sign of affection.' }
     ]
   },
   {
     word: 'cheerful',
-    type: 'adj.',
-    level: 'B1',
-    pronunciation: '/ˈtʃɪəfl/',
-    meaning: 'neşeli',
+    type: 'adj., cheerfully adv.',
+    level: 'A2',
+    pronunciation: '/ˈtʃɪərfəl/',
+    meaning: 'neşeli, keyifli; neşeyle, sevinçle',
     examples: [
-      { en: 'Cheerful smile.' },
-      { en: 'Cheerful person.' }
+      { en: 'The cheerful music lifted everyone\\'s spirits during the celebration.' },
+      { en: 'She always has a cheerful smile, which makes her very approachable.' }
     ]
   },
   {
@@ -789,63 +866,63 @@ export const oxford3000c: Word[] = [
     pronunciation: '/tʃiːz/',
     meaning: 'peynir',
     examples: [
-      { en: 'Cheese sandwich.' },
-      { en: 'Say cheese!' }
+      { en: 'He loves to snack on cheese and crackers during his break.' },
+      { en: 'The restaurant serves a variety of cheese dishes as appetizers.' }
     ]
   },
   {
     word: 'chemical',
     type: 'adj., n.',
-    level: 'B1',
-    pronunciation: '/ˈkemɪkl/',
-    meaning: 'kimyasal',
+    level: 'B2',
+    pronunciation: '/ˈkɛmɪkəl/',
+    meaning: 'kimyasal, kimya ile ilgili; kimyasal madde',
     examples: [
-      { en: 'Chemical reaction.' },
-      { en: 'Dangerous chemicals.' }
+      { en: 'The laboratory is equipped to handle various chemical experiments safely.' },
+      { en: 'Exposure to harsh chemicals can be dangerous without proper protection.' }
     ]
   },
   {
     word: 'chemist',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/ˈkemɪst/',
-    meaning: 'eczacı, kimyager',
+    pronunciation: '/ˈkɛmɪst/',
+    meaning: 'kimyager, eczacı',
     examples: [
-      { en: 'Visit the chemist.' },
-      { en: 'Research chemist.' }
+      { en: 'The chemist carefully mixed the compounds to create the new formula.' },
+      { en: 'She consulted the chemist for advice on the appropriate medication.' }
     ]
   },
   {
     word: 'chemistry',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˈkemɪstri/',
-    meaning: 'kimya',
+    level: 'B1',
+    pronunciation: '/ˈkɛmɪstri/',
+    meaning: 'kimya, kimyasal özellikler',
     examples: [
-      { en: 'Study chemistry.' },
-      { en: 'Chemistry lab.' }
+      { en: 'Chemistry is the study of substances and how they interact with each other.' },
+      { en: 'He decided to major in chemistry because he was fascinated by the subject.' }
     ]
   },
   {
     word: 'chest',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/tʃest/',
-    meaning: 'göğüs, sandık',
+    level: 'A1',
+    pronunciation: '/tʃɛst/',
+    meaning: 'göğüs, sandık; depolama kutusu',
     examples: [
-      { en: 'Chest pain.' },
-      { en: 'Treasure chest.' }
+      { en: 'He felt a pain in his chest after running too fast.' },
+      { en: 'The antique chest in the living room was full of old family treasures.' }
     ]
   },
   {
     word: 'chew',
     type: 'v.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/tʃuː/',
-    meaning: 'çiğnemek',
+    meaning: 'çiğnemek, ısırmak; öğütmek (yemek sırasında)',
     examples: [
-      { en: 'Chew food well.' },
-      { en: 'Chewing gum.' }
+      { en: 'Always chew your food thoroughly before swallowing for better digestion.' },
+      { en: 'The dog loves to chew on its favorite bone for hours.' }
     ]
   },
   {
@@ -853,21 +930,21 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈtʃɪkɪn/',
-    meaning: 'tavuk',
+    meaning: 'tavuk; (bazı durumlarda) cesaret kaynağı',
     examples: [
-      { en: 'Roast chicken.' },
-      { en: 'Chicken farm.' }
+      { en: 'They roasted a whole chicken for dinner on a chilly evening.' },
+      { en: 'Chicken is a versatile meat that can be prepared in many delicious ways.' }
     ]
   },
   {
     word: 'chief',
     type: 'adj., n.',
-    level: 'B2',
+    level: 'A2',
     pronunciation: '/tʃiːf/',
-    meaning: 'şef, baş',
+    meaning: 'en önemli, başlıca; lider, şef',
     examples: [
-      { en: 'Chief executive.' },
-      { en: 'Police chief.' }
+      { en: 'He is the chief executive of a large multinational company.' },
+      { en: 'The chief reason for the change was to improve efficiency and quality.' }
     ]
   },
   {
@@ -875,43 +952,43 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/tʃaɪld/',
-    meaning: 'çocuk',
+    meaning: 'çocuk, evlat',
     examples: [
-      { en: 'Only child.' },
-      { en: 'Child care.' }
+      { en: 'Every child deserves a loving and nurturing environment to grow up in.' },
+      { en: 'The child laughed happily while playing in the park with friends.' }
     ]
   },
   {
     word: 'childhood',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/ˈtʃaɪldhʊd/',
-    meaning: 'çocukluk',
+    meaning: 'çocukluk, çocukluk dönemi',
     examples: [
-      { en: 'Happy childhood.' },
-      { en: 'Childhood memories.' }
+      { en: 'She fondly remembers her carefree childhood spent in the countryside.' },
+      { en: 'Childhood is a time of exploration, learning, and endless curiosity.' }
     ]
   },
   {
     word: 'chin',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/tʃɪn/',
-    meaning: 'çene',
+    meaning: 'çene, alt çene',
     examples: [
-      { en: 'Double chin.' },
-      { en: 'Rest chin on hand.' }
+      { en: 'He rested his chin on his hand while thinking about the problem.' },
+      { en: 'A small bruise appeared on her chin after she bumped into the table.' }
     ]
   },
   {
     word: 'chip',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/tʃɪp/',
-    meaning: 'cips, yonga',
+    meaning: 'parça, küçük parça; cips (atıştırmalık)',
     examples: [
-      { en: 'Computer chip.' },
-      { en: 'Potato chips.' }
+      { en: 'He enjoyed a bag of potato chips during the movie.' },
+      { en: 'A small chip broke off from the old wooden table while it was being repaired.' }
     ]
   },
   {
@@ -919,21 +996,21 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈtʃɒklət/',
-    meaning: 'çikolata',
+    meaning: 'çikolata, kakao ürünü',
     examples: [
-      { en: 'Dark chocolate.' },
-      { en: 'Hot chocolate.' }
+      { en: 'She loves to indulge in a rich piece of dark chocolate after dinner.' },
+      { en: 'The box of assorted chocolates made a perfect gift for the holiday season.' }
     ]
   },
   {
     word: 'choice',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/tʃɔɪs/',
-    meaning: 'seçim',
+    meaning: 'seçim, tercih; seçenek',
     examples: [
-      { en: 'Make a choice.' },
-      { en: 'No choice.' }
+      { en: 'You have a choice between tea and coffee for breakfast.' },
+      { en: 'Making the right choice often requires careful thought and consideration.' }
     ]
   },
   {
@@ -941,76 +1018,76 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'A1',
     pronunciation: '/tʃuːz/',
-    meaning: 'seçmek',
+    meaning: 'seçmek, tercih etmek',
     examples: [
-      { en: 'Choose wisely.' },
-      { en: 'Choose a color.' }
+      { en: 'You should choose a career that you are passionate about.' },
+      { en: 'He chose the blue shirt because it complemented his eyes.' }
     ]
   },
   {
     word: 'chop',
     type: 'v.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/tʃɒp/',
-    meaning: 'doğramak',
+    meaning: 'doğramak, kesmek; parçalara ayırmak',
     examples: [
-      { en: 'Chop onions.' },
-      { en: 'Chop wood.' }
+      { en: 'She used a sharp knife to chop the vegetables for the stew.' },
+      { en: 'He chopped the wood into small pieces for the fireplace.' }
     ]
   },
   {
     word: 'church',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/tʃɜːtʃ/',
-    meaning: 'kilise',
+    level: 'A1',
+    pronunciation: '/tʃɜːrtʃ/',
+    meaning: 'kilise, cami; ibadet yeri',
     examples: [
-      { en: 'Go to church.' },
-      { en: 'Church bells.' }
+      { en: 'They attend church every Sunday morning to worship together.' },
+      { en: 'The old stone church is renowned for its beautiful architecture.' }
     ]
   },
   {
     word: 'cigarette',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˌsɪɡəˈret/',
+    level: 'A1',
+    pronunciation: '/ˌsɪɡəˈrɛt/',
     meaning: 'sigara',
     examples: [
-      { en: 'Quit smoking cigarettes.' },
-      { en: 'Light a cigarette.' }
+      { en: 'He decided to quit smoking and threw away his last cigarette.' },
+      { en: 'The advertisement warned that cigarettes are harmful to your health.' }
     ]
   },
   {
     word: 'circle',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/ˈsɜːkl/',
-    meaning: 'daire',
+    level: 'A1',
+    pronunciation: '/ˈsɜːrkəl/',
+    meaning: 'daire, çevre; halk, çember',
     examples: [
-      { en: 'Draw a circle.' },
-      { en: 'Circle of friends.' }
+      { en: 'The children sat in a circle during story time at school.' },
+      { en: 'A circle of light illuminated the stage during the performance.' }
     ]
   },
   {
     word: 'circumstance',
-    type: 'n .',
-    level: 'B2',
-    pronunciation: '/ˈsɜːkəmstəns/',
-    meaning: 'durum, şart',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈsɜːrkəmstæns/',
+    meaning: 'durum, koşul; olayın gelişme şekli',
     examples: [
-      { en: 'Under the circumstances.' },
-      { en: 'Difficult circumstances.' }
+      { en: 'Under no circumstance should you share your personal details online.' },
+      { en: 'Due to unforeseen circumstances, the event was postponed until further notice.' }
     ]
   },
   {
     word: 'citizen',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/ˈsɪtɪzn/',
-    meaning: 'vatandaş',
+    level: 'A1',
+    pronunciation: '/ˈsɪtɪzən/',
+    meaning: 'vatandaş, yurttaş',
     examples: [
-      { en: 'American citizen.' },
-      { en: 'Rights of citizens.' }
+      { en: 'Every citizen has the right to vote in a democratic society.' },
+      { en: 'The citizens gathered to voice their concerns at the town hall meeting.' }
     ]
   },
   {
@@ -1018,21 +1095,21 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈsɪti/',
-    meaning: 'şehir',
+    meaning: 'şehir, kent',
     examples: [
-      { en: 'Big city.' },
-      { en: 'City center.' }
+      { en: 'New York City is known for its vibrant culture and fast-paced lifestyle.' },
+      { en: 'The city offers a variety of entertainment, dining, and shopping options.' }
     ]
   },
   {
     word: 'civil',
     type: 'adj.',
-    level: 'B2',
-    pronunciation: '/ˈsɪvl/',
-    meaning: 'sivil',
+    level: 'B1',
+    pronunciation: '/ˈsɪvəl/',
+    meaning: 'medenî, toplumsal; medeni davranışa uygun',
     examples: [
-      { en: 'Civil war.' },
-      { en: 'Civil rights.' }
+      { en: 'Civil rights are fundamental to maintaining a just society.' },
+      { en: 'He always behaves in a civil manner, even during disagreements.' }
     ]
   },
   {
@@ -1040,43 +1117,43 @@ export const oxford3000c: Word[] = [
     type: 'v., n.',
     level: 'B1',
     pronunciation: '/kleɪm/',
-    meaning: 'iddia etmek',
+    meaning: 'iddia etmek, talep etmek; iddia, talep',
     examples: [
-      { en: 'Claim compensation.' },
-      { en: 'Make a claim.' }
+      { en: 'He claimed that he had never seen the document before.' },
+      { en: 'She filed a claim with the insurance company after the accident.' }
     ]
   },
   {
     word: 'class',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/klɑːs/',
-    meaning: 'sınıf',
+    pronunciation: '/klæs/',
+    meaning: 'sınıf, ders; grup insan',
     examples: [
-      { en: 'English class.' },
-      { en: 'First class.' }
+      { en: 'The class begins at 9 a.m. every school day.' },
+      { en: 'He attended a math class to improve his problem-solving skills.' }
     ]
   },
   {
     word: 'classic',
     type: 'adj., n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈklæsɪk/',
-    meaning: 'klasik',
+    meaning: 'klasik, zamansız; klasik eser, başyapıt',
     examples: [
-      { en: 'Classic literature.' },
-      { en: 'A true classic.' }
+      { en: 'She enjoys listening to classic rock music from the 1970s.' },
+      { en: 'The film is considered a classic in the history of cinema.' }
     ]
   },
   {
     word: 'classroom',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/ˈklɑːsruːm/',
-    meaning: 'sınıf',
+    pronunciation: '/ˈklæsruːm/',
+    meaning: 'derslik, sınıf',
     examples: [
-      { en: 'Empty classroom.' },
-      { en: 'Classroom activities.' }
+      { en: 'The classroom was filled with eager students ready to learn.' },
+      { en: 'Modern classrooms are equipped with interactive whiteboards and computers.' }
     ]
   },
   {
@@ -1084,43 +1161,43 @@ export const oxford3000c: Word[] = [
     type: 'adj., v.',
     level: 'A1',
     pronunciation: '/kliːn/',
-    meaning: 'temiz, temizlemek',
+    meaning: 'temiz, hijyenik; temizlemek',
     examples: [
-      { en: 'Clean clothes.' },
-      { en: 'Clean the house.' }
+      { en: 'Please clean your room before the guests arrive.' },
+      { en: 'She cleaned the kitchen thoroughly after preparing dinner.' }
     ]
   },
   {
     word: 'clear',
-    type: 'adj., v.',
+    type: 'adj., v., clearly adv.',
     level: 'A2',
-    pronunciation: '/klɪə(r)/',
-    meaning: 'açık, net',
+    pronunciation: '/klɪər/',
+    meaning: 'açık, net; temizlemek, açıklamak; açıkça',
     examples: [
-      { en: 'Clear instructions.' },
-      { en: 'Clear the table.' }
+      { en: 'The sky is clear and blue on this fine day.' },
+      { en: 'He cleared his schedule so that he could focus on the new project.' }
     ]
   },
   {
     word: 'clerk',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/klɑːk/',
-    meaning: 'memur',
+    level: 'A2',
+    pronunciation: '/klɜːrk/',
+    meaning: 'memur, büro çalışanı, kasiyer',
     examples: [
-      { en: 'Bank clerk.' },
-      { en: 'Office clerk.' }
+      { en: 'The clerk helped me find the right book in the library.' },
+      { en: 'She works as a clerk in the city hall, handling various administrative tasks.' }
     ]
   },
   {
     word: 'click',
     type: 'v., n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/klɪk/',
-    meaning: 'tıklamak',
+    meaning: 'tıklamak; tıklama sesi, basma',
     examples: [
-      { en: 'Click the button.' },
-      { en: 'Double click.' }
+      { en: 'Please click on the link to visit our website.' },
+      { en: 'I heard a distinct click when I pressed the button on the remote control.' }
     ]
   },
   {
@@ -1128,21 +1205,21 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'B1',
     pronunciation: '/ˈklaɪənt/',
-    meaning: 'müşteri',
+    meaning: 'müşteri, danışan',
     examples: [
-      { en: 'Important client.' },
-      { en: 'Meet with clients.' }
+      { en: 'The lawyer met with a new client to discuss the details of the case.' },
+      { en: 'Our company values every client and strives to provide excellent service.' }
     ]
   },
   {
     word: 'climate',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈklaɪmət/',
-    meaning: 'iklim',
+    meaning: 'iklim, hava durumu',
     examples: [
-      { en: 'Tropical climate.' },
-      { en: 'Climate change.' }
+      { en: 'The tropical climate in this region is warm and humid throughout the year.' },
+      { en: 'Scientists study the climate to understand the impact of global warming.' }
     ]
   },
   {
@@ -1150,10 +1227,10 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'A2',
     pronunciation: '/klaɪm/',
-    meaning: 'tırmanmak',
+    meaning: 'tırmanmak, çıkmak',
     examples: [
-      { en: 'Climb a mountain.' },
-      { en: 'Climb stairs.' }
+      { en: 'They plan to climb the mountain during their summer adventure.' },
+      { en: 'He had to climb several flights of stairs to reach the top floor of the building.' }
     ]
   },
   {
@@ -1161,131 +1238,153 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/klɒk/',
-    meaning: 'saat',
+    meaning: 'saat, zaman gösterici',
     examples: [
-      { en: 'Wall clock.' },
-      { en: 'Look at the clock.' }
+      { en: 'The clock on the wall indicated that it was almost lunchtime.' },
+      { en: 'She glanced at her clock and realized she was running late for the meeting.' }
     ]
   },
   {
     word: 'close',
-    type: 'adj., v.',
-    level: 'A1',
-    pronunciation: '/kləʊs/',
-    meaning: 'yakın, kapatmak',
+    type: 'adj. (/kloʊs/ - closely adv.), v. (/kloʊz/ - closed adj.)',
+    level: 'A2',
+    pronunciation: '/kloʊs/ (adj. & adv.), /kloʊz/ (v.)',
+    meaning: 'yakın, kapalı; dikkatlice, sıkıca; kapatmak, sonlandırmak',
     examples: [
-      { en: 'Close friend.' },
-      { en: 'Close the door.' }
+      { en: 'The store is close to my house, so I can walk there easily.' },
+      { en: 'Please close the door gently so as not to disturb others.' }
     ]
   },
   {
     word: 'closet',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/ˈklɒzɪt/',
-    meaning: 'dolap',
+    meaning: 'dolap, gardırop',
     examples: [
-      { en: 'Walk-in closet.' },
-      { en: 'Clean out the closet.' }
+      { en: 'She organized her clothes neatly in the closet.' },
+      { en: 'An old closet in the attic was filled with forgotten treasures.' }
     ]
   },
   {
     word: 'cloth',
     type: 'n.',
-    level: 'B1',
+    level: 'A1',
     pronunciation: '/klɒθ/',
-    meaning: 'bez, kumaş',
+    meaning: 'kumaş, bez',
     examples: [
-      { en: 'Cotton cloth.' },
-      { en: 'Cleaning cloth.' }
+      { en: 'He used a soft cloth to wipe the dust off the table.' },
+      { en: 'The tailor selected a high-quality cloth for making the new dress.' }
     ]
   },
   {
     word: 'clothes',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/kləʊðz/',
-    meaning: 'kıyafet',
+    pronunciation: '/kloʊðz/',
+    meaning: 'giysiler, elbiseler',
     examples: [
-      { en: 'New clothes.' },
-      { en: 'Wash clothes.' }
+      { en: 'She bought new clothes for the upcoming season.' },
+      { en: 'Proper clothes are essential for both style and comfort.' }
+    ]
+  },
+  {
+    word: 'clothing',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkloʊðɪŋ/',
+    meaning: 'giyim, giysi maddesi',
+    examples: [
+      { en: 'The store offers a wide range of clothing for all ages.' },
+      { en: 'Traditional clothing often reflects the cultural heritage of a region.' }
     ]
   },
   {
     word: 'cloud',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/klaʊd/',
-    meaning: 'bulut',
+    meaning: 'bulut, gökyüzündeki su damlacıkları',
     examples: [
-      { en: 'Dark clouds.' },
-      { en: 'Cloud computing.' }
+      { en: 'The sky was dotted with fluffy white clouds on a sunny day.' },
+      { en: 'Dark clouds gathered, signaling an approaching storm.' }
     ]
   },
   {
     word: 'club',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/klʌb/',
-    meaning: 'kulüp',
+    meaning: 'kulüp, dernek; gece kulübü',
     examples: [
-      { en: 'Sports club.' },
-      { en: 'Join a club.' }
+      { en: 'He joined a local chess club to meet people with similar interests.' },
+      { en: 'The club organizes weekly events and social gatherings for its members.' }
+    ]
+  },
+  {
+    word: 'cm',
+    type: 'abbr. (centimeter)',
+    level: 'A1',
+    pronunciation: '/siːɛm/',
+    meaning: 'santimetre, 1/100 metre; "c" olarak da kısaltılır',
+    examples: [
+      { en: 'Measure the fabric in cm to ensure an accurate fit.' },
+      { en: 'Her height is expressed in cm on her medical record.' }
     ]
   },
   {
     word: 'coach',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/kəʊtʃ/',
-    meaning: 'antrenör, otobüs',
+    pronunciation: '/koʊtʃ/',
+    meaning: 'antrenör; büyük otobüs, yolcu aracı',
     examples: [
-      { en: 'Football coach.' },
-      { en: 'Travel by coach.' }
+      { en: 'The coach motivated the team with an inspiring speech before the game.' },
+      { en: 'They traveled by coach to the city for the tournament.' }
     ]
   },
   {
     word: 'coal',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəʊl/',
-    meaning: 'kömür',
+    level: 'A2',
+    pronunciation: '/koʊl/',
+    meaning: 'kömür, fosil yakıt',
     examples: [
-      { en: 'Coal mine.' },
-      { en: 'Burn coal.' }
+      { en: 'The power plant uses coal as a primary source of energy.' },
+      { en: 'Coal mining has been an important industry in that region for many years.' }
     ]
   },
   {
     word: 'coast',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/kəʊst/',
-    meaning: 'sahil',
+    level: 'A1',
+    pronunciation: '/koʊst/',
+    meaning: 'kıyı, sahil',
     examples: [
-      { en: 'Pacific coast.' },
-      { en: 'Coast guard.' }
+      { en: 'They drove along the scenic coast to enjoy the ocean views.' },
+      { en: 'The coast is famous for its beautiful beaches and clear blue water.' }
     ]
   },
   {
     word: 'coat',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/kəʊt/',
-    meaning: 'palto, ceket',
+    pronunciation: '/koʊt/',
+    meaning: 'mont, kaban; kaplama',
     examples: [
-      { en: 'Winter coat.' },
-      { en: 'Put on your coat.' }
+      { en: 'She wore a warm coat to protect herself from the cold winter wind.' },
+      { en: 'He bought a stylish coat that kept him both warm and fashionable.' }
     ]
   },
   {
     word: 'code',
     type: 'n.',
-    level: 'A2',
-    pronunciation: '/kəʊd/',
-    meaning: 'kod',
+    level: 'B1',
+    pronunciation: '/koʊd/',
+    meaning: 'kod, şifre; kural, yasa',
     examples: [
-      { en: 'Postal code.' },
-      { en: 'Secret code.' }
+      { en: 'The programmer wrote a complex code to run the new application.' },
+      { en: 'There is a strict code of conduct that everyone is expected to follow.' }
     ]
   },
   {
@@ -1293,32 +1392,32 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈkɒfi/',
-    meaning: 'kahve',
+    meaning: 'kahve, sıcak içecek',
     examples: [
-      { en: 'Black coffee.' },
-      { en: 'Coffee break.' }
+      { en: 'I need a strong cup of coffee to start my day.' },
+      { en: 'The aroma of freshly brewed coffee filled the entire café.' }
     ]
   },
   {
     word: 'coin',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/kɔɪn/',
-    meaning: 'madeni para',
+    meaning: 'madeni para, sikke',
     examples: [
-      { en: 'Gold coin.' },
-      { en: 'Toss a coin.' }
+      { en: 'He found a rare coin while exploring the old market.' },
+      { en: 'Collectors often search for coins from different historical periods.' }
     ]
   },
   {
     word: 'cold',
-    type: 'adj., n.',
+    type: 'adj., n. (coldly adv.)',
     level: 'A1',
-    pronunciation: '/kəʊld/',
-    meaning: 'soğuk',
+    pronunciation: '/koʊld/',
+    meaning: 'soğuk, üşütücü; soğukluk; soğuk bir şekilde',
     examples: [
-      { en: 'Cold weather.' },
-      { en: 'Catch a cold.' }
+      { en: 'It was a cold winter day, so everyone bundled up in warm clothes.' },
+      { en: 'The wind blew coldly through the empty streets at night.' }
     ]
   },
   {
@@ -1326,87 +1425,76 @@ export const oxford3000c: Word[] = [
     type: 'v., n.',
     level: 'B2',
     pronunciation: '/kəˈlæps/',
-    meaning: 'çökmek',
+    meaning: 'çökmek, yıkılmak; çöküş, yıkım',
     examples: [
-      { en: 'The building collapsed.' },
-      { en: 'Economic collapse.' }
+      { en: 'The old building began to collapse after years of neglect.' },
+      { en: 'Her sudden collapse during the marathon was a result of exhaustion and dehydration.' }
     ]
   },
   {
     word: 'colleague',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈkɒliːɡ/',
-    meaning: 'meslektaş',
+    meaning: 'iş arkadaşı, meslektaş',
     examples: [
-      { en: 'Work colleague.' },
-      { en: 'Meet with colleagues.' }
+      { en: 'Her colleagues praised her for her innovative ideas during the meeting.' },
+      { en: 'He often collaborates with his colleagues on challenging projects.' }
     ]
   },
   {
     word: 'collect',
-    type: 'v.',
+    type: 'v., n. (collection n.)',
     level: 'A2',
-    pronunciation: '/kəˈlekt/',
-    meaning: 'toplamak',
+    pronunciation: '/kəˈlɛkt/',
+    meaning: 'toplamak, biriktirmek; koleksiyon, derleme',
     examples: [
-      { en: 'Collect stamps.' },
-      { en: 'Collect data.' }
-    ]
-  },
-  {
-    word: 'collection',
-    type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəˈlekʃn/',
-    meaning: 'koleksiyon',
-    examples: [
-      { en: 'Art collection.' },
-      { en: 'Stamp collection.' }
+      { en: 'She loves to collect stamps from various countries as a hobby.' },
+      { en: 'The museum has an impressive collection of ancient artifacts.' }
     ]
   },
   {
     word: 'college',
     type: 'n.',
-    level: 'A2',
+    level: 'A1',
     pronunciation: '/ˈkɒlɪdʒ/',
-    meaning: 'kolej',
+    meaning: 'üniversite, yüksek öğrenim kurumu',
     examples: [
-      { en: 'Go to college.' },
-      { en: 'College degree.' }
+      { en: 'He plans to attend college next year to study engineering.' },
+      { en: 'The college campus is known for its beautiful architecture and vibrant student life.' }
     ]
   },
   {
     word: 'color',
     type: 'n., v.',
     level: 'A1',
-    pronunciation: '/ˈkʌlə(r)/',
-    meaning: 'renk',
+    pronunciation: '/ˈkʌlər/',
+    meaning: 'renk; boyamak, renklendirmek; colored (adj.) = renkli',
     examples: [
-      { en: 'Favorite color.' },
-      { en: 'Color the picture.' }
+      { en: 'Her favorite color is blue because it reminds her of the clear sky.' },
+      { en: 'The artist used a variety of colors to create a lively painting.' }
     ]
   },
   {
     word: 'column',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/ˈkɒləm/',
-    meaning: 'sütun',
+    meaning: 'sütun, dikey destek; (gazetede) makale, köşe yazısı',
     examples: [
-      { en: 'Newspaper column.' },
-      { en: 'Greek columns.' }
+      { en: 'The newspaper features a weekly column on health and wellness.' },
+      { en: 'Ancient buildings were often supported by large stone columns.' }
     ]
   },
   {
     word: 'combination',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/ˌkɒmbɪˈneɪʃn/',
-    meaning: 'kombinasyon',
+    pronunciation: '/ˌkɒmbɪˈneɪʃən/',
+    meaning: 'birleşim, kombinasyon; karışım',
     examples: [
-      { en: 'A combination of factors.' },
-      { en: 'Lock combination.' }
+      { en: 'The combination of flavors in the dish created a unique taste experience.' },
+      { en: 'Success often depends on a combination of talent, hard work, and perseverance.' }
     ]
   },
   {
@@ -1414,10 +1502,10 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'B1',
     pronunciation: '/kəmˈbaɪn/',
-    meaning: 'birleştirmek',
+    meaning: 'birleştirmek, karıştırmak',
     examples: [
-      { en: 'Combine ingredients.' },
-      { en: 'Combine work and study.' }
+      { en: 'You can combine different ingredients to create a delicious meal.' },
+      { en: 'The company decided to combine its resources to achieve better results.' }
     ]
   },
   {
@@ -1425,10 +1513,10 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'A1',
     pronunciation: '/kʌm/',
-    meaning: 'gelmek',
+    meaning: 'gelmek, varmak; ortaya çıkmak',
     examples: [
-      { en: 'Come here.' },
-      { en: 'Come home.' }
+      { en: 'Please come to my office when you have a moment.' },
+      { en: 'An interesting idea came to him while he was walking in the park.' }
     ]
   },
   {
@@ -1436,76 +1524,98 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A2',
     pronunciation: '/ˈkɒmədi/',
-    meaning: 'komedi',
+    meaning: 'komedi, mizah; güldürü unsuru',
     examples: [
-      { en: 'Comedy show.' },
-      { en: 'Watch a comedy.' }
+      { en: 'The comedy show had the audience laughing from beginning to end.' },
+      { en: 'Stand-up comedy is a popular form of entertainment that uses humor to address social issues.' }
     ]
   },
   {
     word: 'comfort',
     type: 'n., v.',
-    level: 'B1',
-    pronunciation: '/ˈkʌmfət/',
-    meaning: 'rahatlık, teselli etmek',
+    level: 'A2',
+    pronunciation: '/ˈkʌmfərt/',
+    meaning: 'rahatlık, huzur; teselli etmek, rahatlatmak',
     examples: [
-      { en: 'Live in comfort.' },
-      { en: 'Comfort a crying child.' }
+      { en: 'A soft pillow and warm blanket provide comfort on a cold night.' },
+      { en: 'She tried to comfort her friend after hearing about her loss.' }
     ]
   },
   {
     word: 'comfortable',
     type: 'adj.',
     level: 'A2',
-    pronunciation: '/ˈkʌmftəbl/',
-    meaning: 'rahat',
+    pronunciation: '/ˈkʌmfərtəbl/',
+    meaning: 'rahat, konforlu; uygun',
     examples: [
-      { en: 'Comfortable chair.' },
-      { en: 'Feel comfortable.' }
+      { en: 'He wore comfortable shoes that were perfect for the long walk.' },
+      { en: 'The new sofa is both stylish and comfortable for everyday use.' }
+    ]
+  },
+  {
+    word: 'comfortably',
+    type: 'adv.',
+    level: 'A2',
+    pronunciation: '/ˈkʌmfərtəbli/',
+    meaning: 'rahat bir şekilde, konforlu olarak',
+    examples: [
+      { en: 'They sat comfortably in the living room and enjoyed the quiet afternoon.' },
+      { en: 'She was able to work comfortably from home with her new setup.' }
+    ]
+  },
+  {
+    word: 'uncomfortable',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ʌnˈkʌmfərtəbl/',
+    meaning: 'rahatsız, konforsuz; huzursuz',
+    examples: [
+      { en: 'He felt uncomfortable in the crowded elevator during rush hour.' },
+      { en: 'The chair was so hard that it made her feel uncomfortable after a long day.' }
     ]
   },
   {
     word: 'command',
     type: 'v., n.',
-    level: 'B2',
-    pronunciation: '/kəˈmɑːnd/',
-    meaning: 'komut, emir',
+    level: 'B1',
+    pronunciation: '/kəˈmænd/',
+    meaning: 'emretmek, yönetmek; emir, kontrol',
     examples: [
-      { en: 'Command respect.' },
-      { en: 'Give a command.' }
+      { en: 'The general commanded his troops to advance into enemy territory.' },
+      { en: 'Her confident command of the subject impressed everyone in the meeting.' }
     ]
   },
   {
     word: 'comment',
     type: 'n., v.',
     level: 'A2',
-    pronunciation: '/ˈkɒment/',
-    meaning: 'yorum',
+    pronunciation: '/ˈkɒmɛnt/',
+    meaning: 'yorum, görüş; yorum yapmak, ifade etmek',
     examples: [
-      { en: 'Make a comment.' },
-      { en: 'Comment on the article.' }
+      { en: 'He left a thoughtful comment on her blog post.' },
+      { en: 'The professor encouraged students to comment on the reading material.' }
     ]
   },
   {
     word: 'commercial',
-    type: 'adj., n.',
-    level: 'B1',
-    pronunciation: '/kəˈmɜːʃl/',
-    meaning: 'ticari, reklam',
+    type: 'n., adj.',
+    level: 'A2',
+    pronunciation: '/kəˈmɜːrʃəl/',
+    meaning: 'ticari, reklam; reklam, tanıtım',
     examples: [
-      { en: 'Commercial break.' },
-      { en: 'Commercial success.' }
+      { en: 'The commercial aired during prime time and attracted many viewers.' },
+      { en: 'They launched a commercial campaign to promote their latest product.' }
     ]
   },
   {
     word: 'commission',
     type: 'n., v.',
-    level: 'B2',
-    pronunciation: '/kəˈmɪʃn/',
-    meaning: 'komisyon',
+    level: 'B1',
+    pronunciation: '/kəˈmɪʃən/',
+    meaning: 'komisyon, görev; görevlendirmek, komisyon almak',
     examples: [
-      { en: 'European Commission.' },
-      { en: 'Commission a painting.' }
+      { en: 'She earned a commission for every sale made through her efforts.' },
+      { en: 'The board commissioned an expert to review the new policy.' }
     ]
   },
   {
@@ -1513,76 +1623,76 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'B1',
     pronunciation: '/kəˈmɪt/',
-    meaning: 'işlemek, adamak',
+    meaning: 'kendini adamak, sorumluluğu üstlenmek; (suç işlemek anlamında da kullanılır)',
     examples: [
-      { en: 'Commit a crime.' },
-      { en: 'Commit to a project.' }
+      { en: 'He decided to commit himself fully to the new project and work diligently.' },
+      { en: 'It is important not to commit mistakes when you are under pressure.' }
     ]
   },
   {
     word: 'commitment',
     type: 'n.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/kəˈmɪtmənt/',
-    meaning: 'taahhüt, bağlılık',
+    meaning: 'adanmışlık, taahhüt, bağlılık',
     examples: [
-      { en: 'Make a commitment.' },
-      { en: 'Show commitment.' }
+      { en: 'Her commitment to excellence earned her the respect of her peers.' },
+      { en: 'They made a strong commitment to finish the project by the deadline.' }
     ]
   },
   {
     word: 'committee',
     type: 'n.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/kəˈmɪti/',
-    meaning: 'komite',
+    meaning: 'komite, kurul, heyet',
     examples: [
-      { en: 'Committee meeting.' },
-      { en: 'Join the committee.' }
+      { en: 'The committee met regularly to discuss improvements for the community.' },
+      { en: 'She was chosen to serve on the committee because of her expertise in the field.' }
     ]
   },
   {
     word: 'common',
-    type: 'adj.',
-    level: 'A2',
+    type: 'adj., pron., adv.',
+    level: 'A1',
     pronunciation: '/ˈkɒmən/',
-    meaning: 'yaygın, ortak',
+    meaning: 'ortak, yaygın; sıradan; genellikle',
     examples: [
-      { en: 'Common mistake.' },
-      { en: 'Common sense.' }
+      { en: 'They share many interests in common and often spend time together.' },
+      { en: 'It is common for people to feel nervous before an important presentation.' }
     ]
   },
   {
     word: 'communicate',
     type: 'v.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/kəˈmjuːnɪkeɪt/',
-    meaning: 'iletişim kurmak',
+    meaning: 'iletişim kurmak, haberleşmek',
     examples: [
-      { en: 'Communicate effectively.' },
-      { en: 'Communicate by email.' }
+      { en: 'It is important to communicate clearly to avoid misunderstandings.' },
+      { en: 'She communicates with her team via email and video calls every day.' }
     ]
   },
   {
     word: 'communication',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəˌmjuːnɪˈkeɪʃn/',
-    meaning: 'iletişim',
+    level: 'A2',
+    pronunciation: '/kəˌmjuːnɪˈkeɪʃən/',
+    meaning: 'iletişim, haberleşme; bilgi alışverişi',
     examples: [
-      { en: 'Good communication.' },
-      { en: 'Communication skills.' }
+      { en: 'Effective communication is essential for a successful team.' },
+      { en: 'The company improved its internal communication by using modern tools.' }
     ]
   },
   {
     word: 'community',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəˈmjuːnəti/',
-    meaning: 'topluluk',
+    level: 'A1',
+    pronunciation: '/kəˈmjuːnɪti/',
+    meaning: 'toplum, çevre, cemiyet',
     examples: [
-      { en: 'Local community.' },
-      { en: 'Community center.' }
+      { en: 'The local community came together to clean up the park after the storm.' },
+      { en: 'She is an active member of her community and volunteers regularly.' }
     ]
   },
   {
@@ -1590,65 +1700,65 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'A1',
     pronunciation: '/ˈkʌmpəni/',
-    meaning: 'şirket',
+    meaning: 'şirket, firma; beraberlik, arkadaşlık',
     examples: [
-      { en: 'Start a company.' },
-      { en: 'Keep company.' }
+      { en: 'He works for a large company that specializes in software development.' },
+      { en: 'I enjoy the company of my friends during weekends.' }
     ]
   },
   {
     word: 'compare',
     type: 'v.',
     level: 'A2',
-    pronunciation: '/kəmˈpeə(r)/',
-    meaning: 'karşılaştırmak',
+    pronunciation: '/kəmˈpeər/',
+    meaning: 'karşılaştırmak, kıyaslamak',
     examples: [
-      { en: 'Compare prices.' },
-      { en: 'Compare and contrast.' }
+      { en: 'It is useful to compare prices before making a large purchase.' },
+      { en: 'She compared the two proposals to decide which one was more feasible.' }
     ]
   },
   {
     word: 'comparison',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəmˈpærɪsn/',
-    meaning: 'karşılaştırma',
+    level: 'A2',
+    pronunciation: '/kəmˈpærɪsən/',
+    meaning: 'karşılaştırma, kıyaslama',
     examples: [
-      { en: 'Make a comparison.' },
-      { en: 'By comparison.' }
+      { en: 'The comparison of the two models revealed significant differences in performance.' },
+      { en: 'In comparison with last year, sales have increased dramatically.' }
     ]
   },
   {
     word: 'compete',
     type: 'v.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/kəmˈpiːt/',
-    meaning: 'yarışmak',
+    meaning: 'yarışmak, rekabet etmek',
     examples: [
-      { en: 'Compete in sports.' },
-      { en: 'Compete for a job.' }
+      { en: 'Many athletes compete in national competitions to win medals.' },
+      { en: 'The two companies compete fiercely in the global market.' }
     ]
   },
   {
     word: 'competition',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/ˌkɒmpəˈtɪʃn/',
-    meaning: 'yarışma, rekabet',
+    pronunciation: '/ˌkɒmpəˈtɪʃən/',
+    meaning: 'yarışma, rekabet; müsabaka',
     examples: [
-      { en: 'Enter a competition.' },
-      { en: 'Face competition.' }
+      { en: 'The competition was intense, but she managed to win first prize.' },
+      { en: 'Local competitions are held annually to promote sports and talent.' }
     ]
   },
   {
     word: 'competitive',
     type: 'adj.',
     level: 'B1',
-    pronunciation: '/kəmˈpetətɪv/',
-    meaning: 'rekabetçi',
+    pronunciation: '/kəmˈpɛtɪtɪv/',
+    meaning: 'rekabetçi, yarışmacı; yüksek rekabet ortamında olan',
     examples: [
-      { en: 'Competitive prices.' },
-      { en: 'Competitive sport.' }
+      { en: 'The market is highly competitive, so companies must innovate continuously.' },
+      { en: 'He is very competitive and always strives to be the best in his field.' }
     ]
   },
   {
@@ -1656,43 +1766,43 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'A2',
     pronunciation: '/kəmˈpleɪn/',
-    meaning: 'şikayet etmek',
+    meaning: 'şikayet etmek, mızmızlanmak',
     examples: [
-      { en: 'Complain about service.' },
-      { en: 'Stop complaining.' }
+      { en: 'He tends to complain about trivial issues even when things are going well.' },
+      { en: 'She complained to the manager about the slow service at the restaurant.' }
     ]
   },
   {
     word: 'complaint',
     type: 'n.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/kəmˈpleɪnt/',
-    meaning: 'şikayet',
+    meaning: 'şikayet, memnuniyetsizlik',
     examples: [
-      { en: 'Make a complaint.' },
-      { en: 'Handle complaints.' }
+      { en: 'The company received several complaints regarding the faulty product.' },
+      { en: 'Her complaint about the noise was taken seriously by the building management.' }
     ]
   },
   {
     word: 'complete',
-    type: 'adj., v.',
-    level: 'A2',
+    type: 'adj., v., completely adv.',
+    level: 'A1',
     pronunciation: '/kəmˈpliːt/',
-    meaning: 'tamamlamak, tam',
+    meaning: 'tam, eksiksiz; bitirmek; tamamen, tamamen olarak',
     examples: [
-      { en: 'Complete the form.' },
-      { en: 'Complete silence.' }
+      { en: 'Please complete the assignment before the deadline to avoid any penalties.' },
+      { en: 'The puzzle is complete once the final piece is in place.' }
     ]
   },
   {
     word: 'complex',
     type: 'adj.',
-    level: 'B1',
-    pronunciation: '/ˈkɒmpleks/',
-    meaning: 'karmaşık',
+    level: 'B2',
+    pronunciation: '/ˈkɒmplɛks/',
+    meaning: 'karmaşık, zor; çözülmesi güç',
     examples: [
-      { en: 'Complex problem.' },
-      { en: 'Complex system.' }
+      { en: 'The instructions were so complex that many people found them difficult to follow.' },
+      { en: 'Her feelings about the situation were complex and hard to explain in simple terms.' }
     ]
   },
   {
@@ -1700,87 +1810,87 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'B2',
     pronunciation: '/ˈkɒmplɪkeɪt/',
-    meaning: 'karmaşıklaştırmak',
+    meaning: 'karmaşık hale getirmek, zorlaştırmak',
     examples: [
-      { en: 'Complicate matters.' },
-      { en: "Don't complicate things." }
+      { en: 'Adding too many details can complicate an otherwise simple process.' },
+      { en: 'They tried to simplify the task instead of complicating it further.' }
+    ]
+  },
+  {
+    word: 'complicated',
+    type: 'adj.',
+    level: 'B2',
+    pronunciation: '/ˈkɒmplɪkeɪtɪd/',
+    meaning: 'karmaşık, anlaşılması güç',
+    examples: [
+      { en: 'The instructions were so complicated that I needed extra help to understand them.' },
+      { en: 'Their relationship became complicated due to constant misunderstandings.' }
     ]
   },
   {
     word: 'component',
     type: 'n.',
-    level: 'B2',
-    pronunciation: '/kəmˈpəʊnənt/',
-    meaning: 'bileşen',
+    level: 'B1',
+    pronunciation: '/kəmˈpoʊnənt/',
+    meaning: 'bileşen, unsur; parça',
     examples: [
-      { en: 'Key component.' },
-      { en: 'Computer components.' }
+      { en: 'Each component of the engine is crucial for its overall performance.' },
+      { en: 'The computer is made up of several components that work together seamlessly.' }
     ]
   },
   {
     word: 'computer',
     type: 'n.',
     level: 'A1',
-    pronunciation: '/kəmˈpjuːtə(r)/',
-    meaning: 'bilgisayar',
+    pronunciation: '/kəmˈpjuːtər/',
+    meaning: 'bilgisayar, elektronik hesap makinesi',
     examples: [
-      { en: 'Personal computer.' },
-      { en: 'Use a computer.' }
+      { en: 'She uses her computer to complete assignments and browse the internet.' },
+      { en: 'Modern computers are essential tools for work, study, and entertainment.' }
     ]
   },
   {
     word: 'concentrate',
-    type: 'v.',
-    level: 'B1',
-    pronunciation: '/ˈkɒnsntreɪt/',
-    meaning: 'konsantre olmak',
+    type: 'v., n. (concentration n.)',
+    level: 'A2',
+    pronunciation: '/ˈkɒnsəntreɪt/',
+    meaning: 'odaklanmak, yoğunlaşmak; konsantrasyon, yoğunluk',
     examples: [
-      { en: 'Concentrate on work.' },
-      { en: 'Hard to concentrate.' }
-    ]
-  },
-  {
-    word: 'concentration',
-    type: 'n.',
-    level: 'B2',
-    pronunciation: '/ˌkɒnsnˈtreɪʃn/',
-    meaning: 'konsantrasyon',
-    examples: [
-      { en: 'Lose concentration.' },
-      { en: 'High concentration.' }
+      { en: 'It is important to concentrate on your studies to achieve good results.' },
+      { en: 'She found it hard to concentrate in the noisy classroom.' }
     ]
   },
   {
     word: 'concept',
     type: 'n.',
-    level: 'B2',
-    pronunciation: '/ˈkɒnsept/',
-    meaning: 'kavram',
+    level: 'B1',
+    pronunciation: '/ˈkɒnsɛpt/',
+    meaning: 'kavram, fikir, anlayış',
     examples: [
-      { en: 'Basic concept.' },
-      { en: 'Difficult concept.' }
+      { en: 'The concept of time travel has intrigued scientists and writers for decades.' },
+      { en: 'Understanding this concept is crucial for grasping the subject as a whole.' }
     ]
   },
   {
     word: 'concern',
-    type: 'v., n.',
-    level: 'B1',
-    pronunciation: '/kənˈsɜːn/',
-    meaning: 'endişe, ilgilendirmek',
+    type: 'v., n., concerned adj., concerning prep.',
+    level: 'A2',
+    pronunciation: '/kənˈsɜːrn/',
+    meaning: 'ilgilenmek, dert etmek; endişe, kaygı; ilgili; hakkında',
     examples: [
-      { en: 'Cause for concern.' },
-      { en: "It doesn't concern you." }
+      { en: 'She is very concerned about the safety of her children.' },
+      { en: 'The report raised concerns about the environmental impact of the project.' }
     ]
   },
   {
     word: 'concert',
     type: 'n.',
     level: 'A2',
-    pronunciation: '/ˈkɒnsət/',
-    meaning: 'konser',
+    pronunciation: '/ˈkɒnsərt/',
+    meaning: 'konser, müzik etkinliği',
     examples: [
-      { en: 'Rock concert.' },
-      { en: 'Give a concert.' }
+      { en: 'They attended a live concert by their favorite band last weekend.' },
+      { en: 'The concert was filled with energetic performances and enthusiastic fans.' }
     ]
   },
   {
@@ -1788,65 +1898,65 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'B1',
     pronunciation: '/kənˈkluːd/',
-    meaning: 'sonuçlandırmak',
+    meaning: 'sonuçlandırmak, bitirmek; vardığına karar vermek',
     examples: [
-      { en: 'Conclude a meeting.' },
-      { en: 'Conclude that...' }
+      { en: 'After reviewing all the evidence, the jury concluded that the defendant was innocent.' },
+      { en: 'We need to conclude the meeting with a summary of all the decisions made.' }
     ]
   },
   {
     word: 'conclusion',
     type: 'n.',
     level: 'B1',
-    pronunciation: '/kənˈkluːʒn/',
-    meaning: 'sonuç',
+    pronunciation: '/kənˈkluːʒən/',
+    meaning: 'sonuç, vardığı karar',
     examples: [
-      { en: 'Draw a conclusion.' },
-      { en: 'In conclusion.' }
+      { en: 'Her conclusion was based on thorough research and analysis.' },
+      { en: 'The conclusion of the report summarized the key findings and recommendations.' }
     ]
   },
   {
     word: 'concrete',
     type: 'adj., n.',
-    level: 'B2',
-    pronunciation: '/ˈkɒŋkriːt/',
-    meaning: 'somut, beton',
+    level: 'A2',
+    pronunciation: '/ˈkɒnkriːt/',
+    meaning: 'somut, net; beton, inşaat malzemesi',
     examples: [
-      { en: 'Concrete evidence.' },
-      { en: 'Concrete floor.' }
+      { en: 'He provided concrete evidence to support his argument during the discussion.' },
+      { en: 'Workers poured concrete to build a strong foundation for the new building.' }
     ]
   },
   {
     word: 'condition',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kənˈdɪʃn/',
-    meaning: 'durum, şart',
+    level: 'A2',
+    pronunciation: '/kənˈdɪʃən/',
+    meaning: 'durum, hal; şart, koşul',
     examples: [
-      { en: 'Working conditions.' },
-      { en: 'Good condition.' }
+      { en: 'The car is in excellent condition despite its age.' },
+      { en: 'They discussed the conditions under which the contract would be signed.' }
     ]
   },
   {
     word: 'conduct',
     type: 'v., n.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/kənˈdʌkt/',
-    meaning: 'yönetmek, davranış',
+    meaning: 'yürütmek, yönetmek; davranış, icraat',
     examples: [
-      { en: 'Conduct research.' },
-      { en: 'Code of conduct.' }
+      { en: 'The scientist will conduct the experiment according to the standard procedures.' },
+      { en: 'His conduct during the meeting was both professional and respectful.' }
     ]
   },
   {
     word: 'conference',
     type: 'n.',
-    level: 'A2',
+    level: 'B1',
     pronunciation: '/ˈkɒnfərəns/',
-    meaning: 'konferans',
+    meaning: 'konferans, toplantı; seminer',
     examples: [
-      { en: 'Attend a conference.' },
-      { en: 'Conference room.' }
+      { en: 'The international conference attracted experts from around the world.' },
+      { en: 'She presented her research findings at the annual conference.' }
     ]
   },
   {
@@ -1854,10 +1964,10 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'B1',
     pronunciation: '/ˈkɒnfɪdəns/',
-    meaning: 'güven',
+    meaning: 'kendine güven, inanç; güven duygusu',
     examples: [
-      { en: 'Have confidence.' },
-      { en: 'Gain confidence.' }
+      { en: 'Her confidence in her abilities helped her overcome many challenges.' },
+      { en: 'Building confidence is essential for success in any field.' }
     ]
   },
   {
@@ -1865,32 +1975,43 @@ export const oxford3000c: Word[] = [
     type: 'adj.',
     level: 'B1',
     pronunciation: '/ˈkɒnfɪdənt/',
-    meaning: 'kendine güvenen',
+    meaning: 'kendine güvenen, emin',
     examples: [
-      { en: 'Feel confident.' },
-      { en: 'Confident smile.' }
+      { en: 'She is confident that she will succeed after years of hard work.' },
+      { en: 'A confident speaker can easily captivate the audience.' }
+    ]
+  },
+  {
+    word: 'confidently',
+    type: 'adv.',
+    level: 'B1',
+    pronunciation: '/ˈkɒnfɪdəntli/',
+    meaning: 'kendinden emin bir şekilde',
+    examples: [
+      { en: 'He answered the questions confidently during the interview.' },
+      { en: 'They moved confidently into the new market, ready to face any challenges.' }
     ]
   },
   {
     word: 'confirm',
     type: 'v.',
     level: 'B1',
-    pronunciation: '/kənˈfɜːm/',
-    meaning: 'onaylamak',
+    pronunciation: '/kənˈfɜːrm/',
+    meaning: 'onaylamak, teyit etmek',
     examples: [
-      { en: 'Confirm booking.' },
-      { en: 'Please confirm.' }
+      { en: 'Please confirm your attendance at the meeting by replying to the email.' },
+      { en: 'The manager called to confirm the schedule for tomorrow\'s event.' }
     ]
   },
   {
     word: 'conflict',
     type: 'n., v.',
-    level: 'B2',
+    level: 'B1',
     pronunciation: '/ˈkɒnflɪkt/',
-    meaning: 'çatışma',
+    meaning: 'çatışma, anlaşmazlık; çatışmak, uyuşmamak',
     examples: [
-      { en: 'Avoid conflict.' },
-      { en: 'Conflict of interest.' }
+      { en: 'The conflict between the two teams escalated into a full-blown argument.' },
+      { en: 'Their opinions often conflict, making it hard for them to agree on any decision.' }
     ]
   },
   {
@@ -1898,76 +2019,98 @@ export const oxford3000c: Word[] = [
     type: 'v.',
     level: 'B2',
     pronunciation: '/kənˈfrʌnt/',
-    meaning: 'yüzleşmek',
+    meaning: 'yüzleşmek, karşı karşıya gelmek',
     examples: [
-      { en: 'Confront problems.' },
-      { en: 'Confront someone.' }
+      { en: 'She had to confront her fears head-on in order to overcome them.' },
+      { en: 'The leader decided to confront the issue directly instead of avoiding it.' }
     ]
   },
   {
     word: 'confuse',
     type: 'v.',
-    level: 'B1',
+    level: 'A2',
     pronunciation: '/kənˈfjuːz/',
-    meaning: 'karıştırmak',
+    meaning: 'şaşırtmak, kafasını karıştırmak',
     examples: [
-      { en: 'Confuse issues.' },
-      { en: "Don't confuse me." }
+      { en: 'The complicated instructions only served to confuse the students further.' },
+      { en: 'He was confused by the conflicting information provided in the report.' }
+    ]
+  },
+  {
+    word: 'confusing',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/kənˈfjuːzɪŋ/',
+    meaning: 'anlaşılması güç, kafa karıştırıcı',
+    examples: [
+      { en: 'The map was so confusing that we got lost on our way to the museum.' },
+      { en: 'Her explanation was confusing and left the audience with many questions.' }
+    ]
+  },
+  {
+    word: 'confused',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/kənˈfjuːzd/',
+    meaning: 'şaşkın, karışmış, kafası karışmış',
+    examples: [
+      { en: 'He looked confused when he saw the complex instructions.' },
+      { en: 'The sudden change in plans left everyone confused and unsure of what to do next.' }
     ]
   },
   {
     word: 'confusion',
     type: 'n.',
-    level: 'B2',
-    pronunciation: '/kənˈfjuːʒn/',
-    meaning: 'karışıklık',
+    level: 'A2',
+    pronunciation: '/kənˈfjuːʒən/',
+    meaning: 'karmaşa, karışıklık, şaşkınlık',
     examples: [
-      { en: 'Cause confusion.' },
-      { en: 'Add to the confusion.' }
+      { en: 'There was widespread confusion after the announcement of the schedule change.' },
+      { en: 'The lack of clear instructions led to a lot of confusion among the participants.' }
     ]
   },
   {
     word: 'congratulations',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kənˌɡrætʃuˈleɪʃnz/',
-    meaning: 'tebrikler',
+    level: 'A1',
+    pronunciation: '/kənˌɡrætjʊˈleɪʃənz/',
+    meaning: 'tebrikler, kutlama',
     examples: [
-      { en: 'Offer congratulations.' },
-      { en: 'Congratulations on your success!' }
+      { en: 'Congratulations on your well-deserved promotion!' },
+      { en: 'They sent a card full of congratulations to the newlyweds.' }
     ]
   },
   {
     word: 'congress',
     type: 'n.',
     level: 'B2',
-    pronunciation: '/ˈkɒŋɡres/',
-    meaning: 'kongre',
+    pronunciation: '/ˈkɒŋɡrɛs/',
+    meaning: 'kongre, meclis; ulusal parlamento',
     examples: [
-      { en: 'Member of Congress.' },
-      { en: 'Scientific congress.' }
+      { en: 'The congress met to debate the new legislative proposals.' },
+      { en: 'Members of congress are responsible for representing the people\\'s interests.' }
     ]
   },
   {
     word: 'connect',
     type: 'v.',
     level: 'A2',
-    pronunciation: '/kəˈnekt/',
-    meaning: 'bağlamak',
+    pronunciation: '/kəˈnɛkt/',
+    meaning: 'bağlamak, ilişkilendirmek; bağlantı kurmak',
     examples: [
-      { en: 'Connect to the internet.' },
-      { en: 'Connect the dots.' }
+      { en: 'Please connect your phone to the Wi-Fi network for faster internet access.' },
+      { en: 'It is important to connect with colleagues to share ideas and experiences.' }
     ]
   },
   {
     word: 'connection',
     type: 'n.',
-    level: 'B1',
-    pronunciation: '/kəˈnekʃn/',
-    meaning: 'bağlantı',
+    level: 'A2',
+    pronunciation: '/kəˈnɛkʃən/',
+    meaning: 'bağlantı, ilişki; iletişim ağı',
     examples: [
-      { en: 'Internet connection.' },
-      { en: 'Make a connection.' }
+      { en: 'There is a strong connection between exercise and overall health.' },
+      { en: 'The train connection between the cities makes travel very convenient.' }
     ]
   },
   {
@@ -1975,10 +2118,21 @@ export const oxford3000c: Word[] = [
     type: 'adj.',
     level: 'B2',
     pronunciation: '/ˈkɒnʃəs/',
-    meaning: 'bilinçli',
+    meaning: 'bilinçli, farkında',
     examples: [
-      { en: 'Conscious decision.' },
-      { en: 'Become conscious.' }
+      { en: 'She is very conscious of the impact her actions have on others.' },
+      { en: 'He became conscious of his surroundings as he walked through the busy market.' }
+    ]
+  },
+  {
+    word: 'unconscious',
+    type: 'adj.',
+    level: 'B2',
+    pronunciation: '/ʌnˈkɒnʃəs/',
+    meaning: 'bilinçsiz, farkında olmayan',
+    examples: [
+      { en: 'He was rendered unconscious after the severe fall.' },
+      { en: 'Unconscious biases can affect our decisions without us even realizing it.' }
     ]
   },
   {
@@ -1986,10 +2140,1199 @@ export const oxford3000c: Word[] = [
     type: 'n.',
     level: 'B1',
     pronunciation: '/ˈkɒnsɪkwəns/',
-    meaning: 'sonuç',
+    meaning: 'sonuç, etki; vardığı netice',
     examples: [
-      { en: 'Face the consequences.' },
-      { en: 'As a consequence.' }
+      { en: 'Every action has a consequence, whether good or bad.' },
+      { en: 'The consequence of his careless behavior was evident in the final report.' }
+    ]
+  },
+  {
+    word: 'conservative',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈsɜːrvətɪv/',
+    meaning: 'muhafazakar, tutucu; geleneksel değerlere bağlı',
+    examples: [
+      { en: 'He holds conservative views on many social issues.' },
+      { en: 'The conservative party supports policies that emphasize tradition and stability.' }
+    ]
+  },
+  {
+    word: 'consider',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈsɪdər/',
+    meaning: 'düşünmek, değerlendirmek; hesaba katmak',
+    examples: [
+      { en: 'Before making a decision, you should consider all the possible outcomes.' },
+      { en: 'They considered his experience and skills before offering him the position.' }
+    ]
+  },
+  {
+    word: 'considerable',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈsɪdərəbl/',
+    meaning: 'önemli, kayda değer, epey',
+    examples: [
+      { en: 'There was a considerable increase in sales after the new product launch.' },
+      { en: 'She made a considerable effort to improve her performance.' }
+    ]
+  },
+  {
+    word: 'considerably',
+    type: 'adv.',
+    level: 'B1',
+    pronunciation: '/kənˈsɪdərəblɪ/',
+    meaning: 'önemli derecede, epeyce',
+    examples: [
+      { en: 'The price of the item increased considerably over the last year.' },
+      { en: 'He is considerably more experienced than his peers.' }
+    ]
+  },
+  {
+    word: 'consideration',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/kənˌsɪdərˈeɪʃən/',
+    meaning: 'düşünce, özen, dikkate alma',
+    examples: [
+      { en: 'They gave careful consideration to every aspect of the proposal before deciding.' },
+      { en: 'In consideration of your hard work, you will receive a bonus.' }
+    ]
+  },
+  {
+    word: 'consistent',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈsɪstənt/',
+    meaning: 'tutarlı, istikrarlı; sürekli',
+    examples: [
+      { en: 'Her performance has been consistent throughout the year.' },
+      { en: 'A consistent effort over time leads to significant improvement.' }
+    ]
+  },
+  {
+    word: 'consist of',
+    type: 'phrase',
+    level: 'A2',
+    pronunciation: '/kənˈsɪst ʌv/',
+    meaning: 'oluşmak, kapsamak; -den meydana gelmek',
+    examples: [
+      { en: 'The committee consists of experts from various fields.' },
+      { en: 'The meal consists of several courses, including an appetizer and dessert.' }
+    ]
+  },
+  {
+    word: 'constant',
+    type: 'adj., constantly adv.',
+    level: 'A2',
+    pronunciation: '/ˈkɒnstənt/',
+    meaning: 'sürekli, değişmeyen; aralıksız',
+    examples: [
+      { en: 'The constant noise made it difficult to concentrate on work.' },
+      { en: 'She worked at a constant pace to meet all her deadlines.' }
+    ]
+  },
+  {
+    word: 'construct',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈstrʌkt/',
+    meaning: 'inşa etmek, oluşturmak; kurmak',
+    examples: [
+      { en: 'They plan to construct a new bridge over the river next year.' },
+      { en: 'The architect carefully constructed the building with modern design principles.' }
+    ]
+  },
+  {
+    word: 'construction',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/kənˈstrʌkʃən/',
+    meaning: 'inşaat, yapım; kurulum süreci',
+    examples: [
+      { en: 'The construction of the highway was completed ahead of schedule.' },
+      { en: 'New construction in the downtown area is transforming the cityscape.' }
+    ]
+  },
+  {
+    word: 'consult',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈsʌlt/',
+    meaning: 'danışmak, görüşmek; bilgi almak için sormak',
+    examples: [
+      { en: 'She decided to consult a financial advisor before making a large investment.' },
+      { en: 'It is wise to consult experts when facing complex challenges.' }
+    ]
+  },
+  {
+    word: 'consumer',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/kənˈsjuːmər/',
+    meaning: 'tüketici, alıcı',
+    examples: [
+      { en: 'Consumers are becoming more aware of product quality and safety.' },
+      { en: 'The survey was conducted to understand consumer preferences better.' }
+    ]
+  },
+  {
+    word: 'contact',
+    type: 'n., v.',
+    level: 'A1',
+    pronunciation: '/ˈkɒntækt/',
+    meaning: 'iletişim, temas; temas kurmak, aramak',
+    examples: [
+      { en: 'Please contact me if you have any questions about the project.' },
+      { en: 'He lost contact with his friend after moving to a new city.' }
+    ]
+  },
+  {
+    word: 'contain',
+    type: 'v.',
+    level: 'A2',
+    pronunciation: '/kənˈteɪn/',
+    meaning: 'içermek, kapsamak; tutmak',
+    examples: [
+      { en: 'This box contains all the documents you need for the meeting.' },
+      { en: 'The jar can contain up to two liters of water.' }
+    ]
+  },
+  {
+    word: 'container',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/kənˈteɪnər/',
+    meaning: 'konteyner, kap; saklama kabı',
+    examples: [
+      { en: 'The shipping container was loaded with goods for export.' },
+      { en: 'Please use a container to store the leftovers in the refrigerator.' }
+    ]
+  },
+  {
+    word: 'contemporary',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈtɛmpərəri/',
+    meaning: 'çağdaş, modern; aynı döneme ait',
+    examples: [
+      { en: 'The museum features a collection of contemporary art from local artists.' },
+      { en: 'Contemporary music often blends different genres to create unique sounds.' }
+    ]
+  },
+  {
+    word: 'content',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkɒntɛnt/',
+    meaning: 'içerik, mazmun; memnun, tatmin olmuş',
+    examples: [
+      { en: 'The website offers a vast amount of content on various topics.' },
+      { en: 'She felt content after a long day of productive work.' }
+    ]
+  },
+  {
+    word: 'contest',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkɒntɛst/',
+    meaning: 'yarışma, müsabaka',
+    examples: [
+      { en: 'The singing contest attracted many talented performers.' },
+      { en: 'They organized a contest to design a new logo for the company.' }
+    ]
+  },
+  {
+    word: 'context',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkɒntɛkst/',
+    meaning: 'bağlam, durum; çevre, ortam',
+    examples: [
+      { en: 'Understanding the context of a conversation helps in interpreting its meaning.' },
+      { en: 'The historical context of the event was explained in detail during the lecture.' }
+    ]
+  },
+  {
+    word: 'continent',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkɒntɪnənt/',
+    meaning: 'kıt, ana kara parçası',
+    examples: [
+      { en: 'Asia is the largest continent in the world by both area and population.' },
+      { en: 'Each continent has its own unique culture and geography.' }
+    ]
+  },
+  {
+    word: 'continue',
+    type: 'v.',
+    level: 'A1',
+    pronunciation: '/kənˈtɪnjuː/',
+    meaning: 'devam etmek, sürdürmek',
+    examples: [
+      { en: 'Please continue reading until you reach the end of the chapter.' },
+      { en: 'They decided to continue their journey despite the rough weather.' }
+    ]
+  },
+  {
+    word: 'continuous',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈtɪnjʊəs/',
+    meaning: 'kesintisiz, sürekli',
+    examples: [
+      { en: 'The continuous sound of the rain was both soothing and relaxing.' },
+      { en: 'They enjoyed continuous music throughout the festival.' }
+    ]
+  },
+  {
+    word: 'continuously',
+    type: 'adv.',
+    level: 'B1',
+    pronunciation: '/kənˈtɪnjʊəsli/',
+    meaning: 'kesintisiz, sürekli olarak',
+    examples: [
+      { en: 'She worked continuously for eight hours without taking a break.' },
+      { en: 'The river flows continuously throughout the year, even during dry seasons.' }
+    ]
+  },
+  {
+    word: 'contract',
+    type: 'n., v.',
+    level: 'B1',
+    pronunciation: '/ˈkɒntrækt/',
+    meaning: 'sözleşme, anlaşma; sözleşmek, daralmak',
+    examples: [
+      { en: 'They signed a contract to formalize their business agreement.' },
+      { en: 'Metal tends to contract when the temperature drops.' }
+    ]
+  },
+  {
+    word: 'contrast',
+    type: 'n., v.',
+    level: 'B1',
+    pronunciation: '/ˈkɒntræst/',
+    meaning: 'tezat, zıtlık; karşılaştırmak, zıtlık göstermek',
+    examples: [
+      { en: 'The contrast between the bright colors and dark background was striking.' },
+      { en: 'She contrasted the two proposals to determine which one was more cost-effective.' }
+    ]
+  },
+  {
+    word: 'contrasting',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈtræstɪŋ/',
+    meaning: 'zıt, karşıt, belirgin fark yaratan',
+    examples: [
+      { en: 'The artist used contrasting colors to create a dynamic and eye-catching painting.' },
+      { en: 'Their contrasting views led to a lively and productive debate.' }
+    ]
+  },
+  {
+    word: 'contribute',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈtrɪbjuːt/',
+    meaning: 'katkıda bulunmak, ilave etmek',
+    examples: [
+      { en: 'Everyone is encouraged to contribute their ideas to improve the project.' },
+      { en: 'His research contributions have significantly advanced the field.' }
+    ]
+  },
+  {
+    word: 'contribution',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˌkɒntrɪˈbjuːʃən/',
+    meaning: 'katkı, bağış; katkıda bulunma',
+    examples: [
+      { en: 'Her contribution to the charity helped raise a substantial amount of money.' },
+      { en: 'Every member\\'s contribution is vital to the success of the team.' }
+    ]
+  },
+  {
+    word: 'control',
+    type: 'n., v.',
+    level: 'B1',
+    pronunciation: '/kənˈtroʊl/',
+    meaning: 'kontrol, hâkimiyet; kontrol etmek, yönetmek',
+    examples: [
+      { en: 'The new system allows you to control your home appliances remotely.' },
+      { en: 'He lost control of the car on the icy road and had to brake suddenly.' }
+    ]
+  },
+  {
+    word: 'convenient',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/kənˈviːniənt/',
+    meaning: 'uygun, elverişli, pratik',
+    examples: [
+      { en: 'The hotel is in a convenient location, close to shops and restaurants.' },
+      { en: 'It is convenient to use public transportation in a busy city.' }
+    ]
+  },
+  {
+    word: 'convention',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/kənˈvɛnʃən/',
+    meaning: 'gelenek, teamül; kongre, toplantı',
+    examples: [
+      { en: 'The annual convention of scientists was held in a large conference center.' },
+      { en: 'Social conventions often dictate the appropriate behavior in public.' }
+    ]
+  },
+  {
+    word: 'conventional',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/kənˈvɛnʃənl/',
+    meaning: 'geleneksel, alışılmış; sıradan',
+    examples: [
+      { en: 'He prefers a conventional approach to solving problems rather than taking risks.' },
+      { en: 'The company follows conventional methods in its production process.' }
+    ]
+  },
+  {
+    word: 'conversation',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˌkɒnvərˈseɪʃən/',
+    meaning: 'konuşma, sohbet; muhabbet',
+    examples: [
+      { en: 'They had an engaging conversation about art and culture over dinner.' },
+      { en: 'A friendly conversation can help break the ice at social gatherings.' }
+    ]
+  },
+  {
+    word: 'convert',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈvɜːrt/',
+    meaning: 'dönüştürmek, çevirmek',
+    examples: [
+      { en: 'They converted the old warehouse into a modern art gallery.' },
+      { en: 'It is possible to convert measurements from inches to centimeters easily.' }
+    ]
+  },
+  {
+    word: 'convince',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/kənˈvɪns/',
+    meaning: 'ikna etmek, inandırmak',
+    examples: [
+      { en: 'She managed to convince her parents to let her study abroad.' },
+      { en: 'It took several persuasive arguments to convince him of the benefits of the new plan.' }
+    ]
+  },
+  {
+    word: 'cook',
+    type: 'v., n. (cooking n.)',
+    level: 'A1',
+    pronunciation: '/kʊk/',
+    meaning: 'pişirmek, yemek hazırlamak; aşçı, yemek',
+    examples: [
+      { en: 'She loves to cook dinner for her family on weekends.' },
+      { en: 'Cooking is both an art and a science that requires creativity and precision.' }
+    ]
+  },
+  {
+    word: 'cookie',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʊki/',
+    meaning: 'kurabiye, bisküvi',
+    examples: [
+      { en: 'The freshly baked cookie melted in his mouth with its perfect sweetness.' },
+      { en: 'She offered a plate of cookies to all her guests at the party.' }
+    ]
+  },
+  {
+    word: 'cool',
+    type: 'adj., v.',
+    level: 'A1',
+    pronunciation: '/kuːl/',
+    meaning: 'serin, havalı; soğutmak, sakinleştirmek',
+    examples: [
+      { en: 'The cool breeze made the hot summer day much more bearable.' },
+      { en: 'He tried to cool his anger by taking a few deep breaths.' }
+    ]
+  },
+  {
+    word: 'cooperation',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/koʊˌɒpəˈreɪʃən/',
+    meaning: 'iş birliği, dayanışma, ortak çalışma',
+    examples: [
+      { en: 'Successful projects often rely on the cooperation of a dedicated team.' },
+      { en: 'The community showed great cooperation in cleaning up the local park.' }
+    ]
+  },
+  {
+    word: 'cope (with)',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/koʊp/',
+    meaning: 'baş etmek, üstesinden gelmek; ... ile başa çıkmak',
+    examples: [
+      { en: 'She learned to cope with stress by practicing meditation and yoga.' },
+      { en: 'He found it difficult to cope with the loss of his close friend.' }
+    ]
+  },
+  {
+    word: 'copy',
+    type: 'n., v.',
+    level: 'A1',
+    pronunciation: '/ˈkɒpi/',
+    meaning: 'kopya, örnek; kopyalamak, çoğaltmak',
+    examples: [
+      { en: 'Please make a copy of the document for your records.' },
+      { en: 'He tried to copy the design exactly as shown in the brochure.' }
+    ]
+  },
+  {
+    word: 'core',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/kɔːr/',
+    meaning: 'çekirdek, öz; temel unsur',
+    examples: [
+      { en: 'Understanding the core principles of the subject is essential for success.' },
+      { en: 'The Earth\\'s core is composed mainly of molten iron and nickel.' }
+    ]
+  },
+  {
+    word: 'corner',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkɔːrnər/',
+    meaning: 'köşe, burun; bir yerin sığınağı',
+    examples: [
+      { en: 'He waited at the corner of the street for his friend to arrive.' },
+      { en: 'The shop is located on the busy corner of the main road.' }
+    ]
+  },
+  {
+    word: 'correct',
+    type: 'adj., v., correctly adv.',
+    level: 'A1',
+    pronunciation: '/kəˈrɛkt/',
+    meaning: 'doğru, hatasız; düzeltmek, onarmak; doğru bir şekilde',
+    examples: [
+      { en: 'Make sure your answers are correct before you submit the test.' },
+      { en: 'She corrected the errors in her essay and improved the overall quality.' }
+    ]
+  },
+  {
+    word: 'cost',
+    type: 'n., v.',
+    level: 'A1',
+    pronunciation: '/kɒst/',
+    meaning: 'maliyet, bedel; mal olmak, tutmak',
+    examples: [
+      { en: 'The cost of the new computer was higher than expected.' },
+      { en: 'It costs a lot to maintain a car in good condition.' }
+    ]
+  },
+  {
+    word: 'cottage',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkɒtɪdʒ/',
+    meaning: 'köy evi, kulübe; küçük ev',
+    examples: [
+      { en: 'They spent the summer in a charming cottage by the lake.' },
+      { en: 'The cottage, with its thatched roof, looked like something out of a fairytale.' }
+    ]
+  },
+  {
+    word: 'cotton',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkɒtən/',
+    meaning: 'pamuk, pamuklu kumaş',
+    examples: [
+      { en: 'This shirt is made of soft cotton, perfect for warm weather.' },
+      { en: 'Cotton is widely used in the production of comfortable clothing.' }
+    ]
+  },
+  {
+    word: 'cough',
+    type: 'v., n.',
+    level: 'A1',
+    pronunciation: '/kɒf/',
+    meaning: 'öksürmek; öksürük, öksürük sesi',
+    examples: [
+      { en: 'He began to cough when the cold air irritated his throat.' },
+      { en: 'A persistent cough can be a sign of an underlying illness.' }
+    ]
+  },
+  {
+    word: 'could',
+    type: 'modal v. (can)',
+    level: 'A1',
+    pronunciation: '/kʊd/',
+    meaning: 'yapabilirdi, edebilirdi; geçmişteki yetenek veya olasılık',
+    examples: [
+      { en: 'I could solve the problem easily when I was younger.' },
+      { en: 'Could you please help me carry this heavy bag?' }
+    ]
+  },
+  {
+    word: 'council',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkaʊnsəl/',
+    meaning: 'meclis, konsey; yerel yönetim kurulu',
+    examples: [
+      { en: 'The city council met to discuss the new zoning regulations.' },
+      { en: 'A council of experts was formed to advise on the project.' }
+    ]
+  },
+  {
+    word: 'count',
+    type: 'v.',
+    level: 'A1',
+    pronunciation: '/kaʊnt/',
+    meaning: 'saymak, hesaplamak; önem taşımak',
+    examples: [
+      { en: 'Every vote counts in a democratic election.' },
+      { en: 'Please count the number of chairs in the room before the event starts.' }
+    ]
+  },
+  {
+    word: 'counter',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkaʊntər/',
+    meaning: 'tezgah, karşı; rakip (bazı durumlarda)',
+    examples: [
+      { en: 'The kitchen counter was made of polished granite.' },
+      { en: 'They set up a counter at the reception to register the guests.' }
+    ]
+  },
+  {
+    word: 'country',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌntri/',
+    meaning: 'ülke, memleket',
+    examples: [
+      { en: 'She comes from a small country with a rich cultural heritage.' },
+      { en: 'Every country has its own unique traditions and customs.' }
+    ]
+  },
+  {
+    word: 'countryside',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkaʊntrisaɪd/',
+    meaning: 'kırsal alan, köy çevresi',
+    examples: [
+      { en: 'They enjoyed a peaceful walk in the countryside away from the noisy city.' },
+      { en: 'The countryside is known for its scenic landscapes and fresh air.' }
+    ]
+  },
+  {
+    word: 'county',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkaʊnti/',
+    meaning: 'ilçe, bölge',
+    examples: [
+      { en: 'He moved to a quiet county where life is simple and friendly.' },
+      { en: 'The county fair is held annually and features rides, games, and local food.' }
+    ]
+  },
+  {
+    word: 'couple',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌpl/',
+    meaning: 'çift, birkaç; bir çift',
+    examples: [
+      { en: 'They are a lovely couple who have been married for over ten years.' },
+      { en: 'I need a couple of minutes to finish this task.' }
+    ]
+  },
+  {
+    word: 'courage',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkʌrɪdʒ/',
+    meaning: 'cesaret, metanet, yiğitlik',
+    examples: [
+      { en: 'It takes a lot of courage to stand up for what you believe in.' },
+      { en: 'Her courage in the face of adversity inspired everyone around her.' }
+    ]
+  },
+  {
+    word: 'course',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kɔːrs/',
+    meaning: 'ders, kurs; yol, süreç; "of course" = tabii ki',
+    examples: [
+      { en: 'She enrolled in a language course to improve her communication skills.' },
+      { en: 'Of course, you should ask questions if you do not understand something.' }
+    ]
+  },
+  {
+    word: 'court',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kɔːrt/',
+    meaning: 'mahkeme, yargı; spor sahası',
+    examples: [
+      { en: 'The court will hear the case next week.' },
+      { en: 'They played basketball on the outdoor court behind the school.' }
+    ]
+  },
+  {
+    word: 'cousin',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌzən/',
+    meaning: 'kuzen, akraba',
+    examples: [
+      { en: 'My cousin is visiting us during the summer holidays.' },
+      { en: 'We spent the weekend with our cousins at the family reunion.' }
+    ]
+  },
+  {
+    word: 'cover',
+    type: 'v., n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌvər/',
+    meaning: 'örtmek, kaplamak; kapak, örtü',
+    examples: [
+      { en: 'Please cover the cake with frosting before serving it to the guests.' },
+      { en: 'The book comes with a protective cover to prevent damage.' }
+    ]
+  },
+  {
+    word: 'cow',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kaʊ/',
+    meaning: 'inek, sığır',
+    examples: [
+      { en: 'The cow grazed peacefully in the green pasture.' },
+      { en: 'Farmers raise cows for milk, meat, and other dairy products.' }
+    ]
+  },
+  {
+    word: 'crack',
+    type: 'n., v.',
+    level: 'A2',
+    pronunciation: '/kræk/',
+    meaning: 'çatlak, kırık; çatlamak, kırılmak',
+    examples: [
+      { en: 'A small crack appeared in the wall after the earthquake.' },
+      { en: 'He tried to crack a joke to lighten the mood during the tense meeting.' }
+    ]
+  },
+  {
+    word: 'craft',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/kræft/',
+    meaning: 'zanaat, el işi; el becerisi',
+    examples: [
+      { en: 'She enjoys spending her free time working on various craft projects.' },
+      { en: 'The craft fair showcased handmade items from local artisans.' }
+    ]
+  },
+  {
+    word: 'crash',
+    type: 'n., v.',
+    level: 'A2',
+    pronunciation: '/kræʃ/',
+    meaning: 'kaza, çarpışma; çarpmak, düşmek',
+    examples: [
+      { en: 'The car crash on the highway resulted in a major traffic jam.' },
+      { en: 'He heard a loud crash from the other room and rushed to see what had happened.' }
+    ]
+  },
+  {
+    word: 'crazy',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ˈkreɪzi/',
+    meaning: 'çılgın, deli; akıl almaz',
+    examples: [
+      { en: 'The party was crazy fun, with music and dancing all night long.' },
+      { en: 'Sometimes doing something crazy can lead to unforgettable adventures.' }
+    ]
+  },
+  {
+    word: 'cream',
+    type: 'n., adj.',
+    level: 'A1',
+    pronunciation: '/kriːm/',
+    meaning: 'krema, süt kreması; kremamsı, yumuşak dokulu',
+    examples: [
+      { en: 'She added a dollop of cream to her coffee for extra flavor.' },
+      { en: 'The cream-colored walls gave the room a warm, inviting atmosphere.' }
+    ]
+  },
+  {
+    word: 'create',
+    type: 'v.',
+    level: 'A2',
+    pronunciation: '/kriˈeɪt/',
+    meaning: 'yaratmak, oluşturmak',
+    examples: [
+      { en: 'The artist used her imagination to create a breathtaking masterpiece.' },
+      { en: 'They worked together to create a plan that would solve the problem effectively.' }
+    ]
+  },
+  {
+    word: 'creation',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/kriˈeɪʃən/',
+    meaning: 'yaratım, oluşturma; eser, yapı',
+    examples: [
+      { en: 'The creation of the sculpture took months of meticulous work.' },
+      { en: 'Nature is full of amazing creations that inspire wonder and admiration.' }
+    ]
+  },
+  {
+    word: 'creative',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/kriˈeɪtɪv/',
+    meaning: 'yaratıcı, sanatsal; özgün',
+    examples: [
+      { en: 'She has a very creative mind and always comes up with unique ideas.' },
+      { en: 'The creative design of the building impressed everyone who visited.' }
+    ]
+  },
+  {
+    word: 'creature',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkriːtʃər/',
+    meaning: 'yaratık, canlı; hayvan, varlık',
+    examples: [
+      { en: 'The forest is home to many strange and wonderful creatures.' },
+      { en: 'My grandmother told me fascinating stories about mythical creatures from ancient times.' }
+    ]
+  },
+  {
+    word: 'credit',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkrɛdɪt/',
+    meaning: 'kredi, takdir; kredi kartı anlamında da kullanılır',
+    examples: [
+      { en: 'He applied for a loan to build his credit history.' },
+      { en: 'She paid for the purchase using her credit card.' }
+    ]
+  },
+  {
+    word: 'credit card',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkrɛdɪt kɑːrd/',
+    meaning: 'kredi kartı, ödeme kartı',
+    examples: [
+      { en: 'Many stores now accept payment by credit card for convenience.' },
+      { en: 'She always carries her credit card for online shopping.' }
+    ]
+  },
+  {
+    word: 'crime',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kraɪm/',
+    meaning: 'suç, kanunsuz eylem',
+    examples: [
+      { en: 'The city has implemented measures to reduce crime and ensure public safety.' },
+      { en: 'He was arrested for committing a serious crime.' }
+    ]
+  },
+  {
+    word: 'criminal',
+    type: 'adj., n.',
+    level: 'B1',
+    pronunciation: '/ˈkrɪmɪnəl/',
+    meaning: 'suçlu, suç işleyen; suçlu kişi',
+    examples: [
+      { en: 'The criminal was sentenced to several years in prison for his actions.' },
+      { en: 'Police work hard to catch criminals and keep the community safe.' }
+    ]
+  },
+  {
+    word: 'crisis',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkraɪsɪs/',
+    meaning: 'kriz, acil durum; belirsizlik',
+    examples: [
+      { en: 'The economic crisis affected many families across the country.' },
+      { en: 'A crisis meeting was called to address the unexpected challenges.' }
+    ]
+  },
+  {
+    word: 'crisp',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/krɪsp/',
+    meaning: 'kıtır, taze; net, parlak',
+    examples: [
+      { en: 'The crisp apple was perfect for a healthy snack.' },
+      { en: 'She loves the crisp sound of autumn leaves under her feet.' }
+    ]
+  },
+  {
+    word: 'criterion',
+    type: 'n.',
+    level: 'B2',
+    pronunciation: '/kraɪˈtɪəriən/',
+    meaning: 'ölçüt, kriter',
+    examples: [
+      { en: 'One important criterion for selecting a candidate is relevant experience.' },
+      { en: 'They set several criteria to evaluate the performance of the new system.' }
+    ]
+  },
+  {
+    word: 'critic',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkrɪtɪk/',
+    meaning: 'eleştirmen, yorumcu',
+    examples: [
+      { en: 'The film received positive reviews from top critics in the industry.' },
+      { en: 'She is a well-respected critic known for her insightful commentary on art.' }
+    ]
+  },
+  {
+    word: 'critical',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ˈkrɪtɪkəl/',
+    meaning: 'kritik, hayati; önemli, acil',
+    examples: [
+      { en: 'It is critical to address these issues before they escalate further.' },
+      { en: 'Her critical review highlighted both the strengths and weaknesses of the performance.' }
+    ]
+  },
+  {
+    word: 'criticism',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈkrɪtɪsɪzəm/',
+    meaning: 'eleştiri, değerlendirme; kusur bulma',
+    examples: [
+      { en: 'Constructive criticism can help improve your skills and performance.' },
+      { en: 'The book received both praise and criticism from its readers.' }
+    ]
+  },
+  {
+    word: 'criticize',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/ˈkrɪtɪsaɪz/',
+    meaning: 'eleştirmek, kusur bulmak',
+    examples: [
+      { en: 'It is easier to criticize others than to offer constructive solutions.' },
+      { en: 'She was careful not to criticize her colleagues in public.' }
+    ]
+  },
+  {
+    word: 'crop',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/krɒp/',
+    meaning: 'mahsul, ürün; ekin',
+    examples: [
+      { en: 'The farmers harvested a large crop of wheat this year.' },
+      { en: 'Crop rotation is important to maintain soil fertility.' }
+    ]
+  },
+  {
+    word: 'cross',
+    type: 'n., v.',
+    level: 'A1',
+    pronunciation: '/krɒs/',
+    meaning: 'karşı, çarpraz; geçmek, aşmak; haç, çarmıh',
+    examples: [
+      { en: 'She had to cross the busy street carefully.' },
+      { en: 'He crossed his arms as a sign of determination.' }
+    ]
+  },
+  {
+    word: 'crowd',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kraʊd/',
+    meaning: 'kalabalık, topluluk; kalabalık olmak',
+    examples: [
+      { en: 'A large crowd gathered in the square to watch the parade.' },
+      { en: 'The train was so crowded that there was barely any room to move.' }
+    ]
+  },
+  {
+    word: 'crowded',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ˈkraʊdɪd/',
+    meaning: 'kalabalık, sıkışık',
+    examples: [
+      { en: 'The market was crowded with shoppers during the busy holiday season.' },
+      { en: 'He felt uncomfortable in the crowded subway during rush hour.' }
+    ]
+  },
+  {
+    word: 'crown',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/kraʊn/',
+    meaning: 'taç, kraliyet tacı; doruk, tepe',
+    examples: [
+      { en: 'The queen wore a magnificent crown adorned with precious jewels.' },
+      { en: 'Winning the championship was the crowning achievement of his career.' }
+    ]
+  },
+  {
+    word: 'crucial',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ˈkruːʃəl/',
+    meaning: 'çok önemli, hayati; elzem',
+    examples: [
+      { en: 'It is crucial to follow the safety guidelines during the experiment.' },
+      { en: 'Her role in the project was crucial to its overall success.' }
+    ]
+  },
+  {
+    word: 'cruel',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ˈkruːəl/',
+    meaning: 'acımasız, zalim, haşin',
+    examples: [
+      { en: 'It is wrong to be cruel to animals or other people.' },
+      { en: 'The dictator was known for his cruel treatment of political opponents.' }
+    ]
+  },
+  {
+    word: 'crush',
+    type: 'v.',
+    level: 'A2',
+    pronunciation: '/krʌʃ/',
+    meaning: 'ezmek, parçalamak; sıkıştırmak',
+    examples: [
+      { en: 'She used a blender to crush the ice for the refreshing cocktail.' },
+      { en: 'The heavy crowd began to crush into the concert hall as the doors opened.' }
+    ]
+  },
+  {
+    word: 'cry',
+    type: 'v., n.',
+    level: 'A1',
+    pronunciation: '/kraɪ/',
+    meaning: 'ağlamak, ses çıkarmak; ağlama, gözyaşı',
+    examples: [
+      { en: 'The little child began to cry when she fell off her bike.' },
+      { en: 'He couldn\'t help but cry during the emotional farewell.' }
+    ]
+  },
+  {
+    word: 'ct',
+    type: 'abbr. (cent)',
+    level: 'A1',
+    pronunciation: '/siːti/',
+    meaning: 'c, centin kısaltması; bazen 1 cent anlamında kullanılır',
+    examples: [
+      { en: 'The price is marked as 25 ct, meaning 25 cents.' },
+      { en: 'In some contexts, ct is used as an abbreviation for cent.' }
+    ]
+  },
+  {
+    word: 'cultural',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ˈkʌltʃərəl/',
+    meaning: 'kültürel, medeniyetle ilgili',
+    examples: [
+      { en: 'The museum offers insights into the cultural heritage of the region.' },
+      { en: 'Cultural events help preserve traditions and promote mutual understanding.' }
+    ]
+  },
+  {
+    word: 'culture',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌltʃər/',
+    meaning: 'kültür, medeniyet; yaşam tarzı',
+    examples: [
+      { en: 'The country has a rich culture that spans many centuries.' },
+      { en: 'Learning about different cultures can broaden your perspective on life.' }
+    ]
+  },
+  {
+    word: 'cup',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/kʌp/',
+    meaning: 'fincan, kupa; kupa (spor ödülü anlamında)',
+    examples: [
+      { en: 'She sipped her tea from a delicate cup with floral designs.' },
+      { en: 'The team won the cup after a hard-fought tournament.' }
+    ]
+  },
+  {
+    word: 'cupboard',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌpbərd/',
+    meaning: 'dolap, kiler, gardırop',
+    examples: [
+      { en: 'The kitchen cupboard was filled with spices and utensils.' },
+      { en: 'She opened the cupboard to find her favorite mug.' }
+    ]
+  },
+  {
+    word: 'cure',
+    type: 'v., n.',
+    level: 'B2',
+    pronunciation: '/kjʊər/',
+    meaning: 'tedavi etmek, iyileştirmek; çare, tedavi yöntemi',
+    examples: [
+      { en: 'Scientists are working hard to find a cure for the disease.' },
+      { en: 'After years of research, a promising cure was discovered for the illness.' }
+    ]
+  },
+  {
+    word: 'curious',
+    type: 'adj., curiously adv.',
+    level: 'A2',
+    pronunciation: '/ˈkjʊəriəs/',
+    meaning: 'meraklı, ilginç; merakla, dikkatle',
+    examples: [
+      { en: 'The curious child asked many questions about the stars and planets.' },
+      { en: 'She looked curiously at the strange object on the table.' }
+    ]
+  },
+  {
+    word: 'curl',
+    type: 'v., n. (curly adj.)',
+    level: 'A2',
+    pronunciation: '/kɜːrl/',
+    meaning: 'kıvırmak, bükmek; kıvrım, dalga; kıvırcık',
+    examples: [
+      { en: 'She likes to curl her hair with a curling iron before going out.' },
+      { en: 'A curl of smoke rose from the chimney on a chilly winter morning.' }
+    ]
+  },
+  {
+    word: 'current',
+    type: 'adj., n., currently adv.',
+    level: 'A2',
+    pronunciation: '/ˈkɜːrənt/',
+    meaning: 'mevcut, güncel; akım, dönem; şu anda, halihazırda',
+    examples: [
+      { en: 'The current issue of the magazine focuses on technology and innovation.' },
+      { en: 'She is currently working on a new project that will revolutionize the industry.' }
+    ]
+  },
+  {
+    word: 'curtain',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkɜːrtən/',
+    meaning: 'perde, stor',
+    examples: [
+      { en: 'The red curtains in the theater added a dramatic touch to the stage.' },
+      { en: 'She pulled the curtain aside to let in the bright morning light.' }
+    ]
+  },
+  {
+    word: 'curve',
+    type: 'n., v., (curved adj.)',
+    level: 'A2',
+    pronunciation: '/kɜːrv/',
+    meaning: 'eğri, kıvrım; eğmek, bükmek; eğimli',
+    examples: [
+      { en: 'The road has a sharp curve that requires careful driving.' },
+      { en: 'The artist drew a smooth curve to complete the design.' }
+    ]
+  },
+  {
+    word: 'custom',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkʌstəm/',
+    meaning: 'gelenek, teamül; özel sipariş ürün',
+    examples: [
+      { en: 'It is a custom in many cultures to greet guests with warmth and hospitality.' },
+      { en: 'They ordered a custom-made suit to ensure a perfect fit.' }
+    ]
+  },
+  {
+    word: 'customer',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈkʌstəmər/',
+    meaning: 'müşteri, alıcı',
+    examples: [
+      { en: 'The customer was very satisfied with the service provided at the store.' },
+      { en: 'Good customer service is key to building brand loyalty.' }
+    ]
+  },
+  {
+    word: 'customs',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ˈkʌstəmz/',
+    meaning: 'gümrük, adet; gelenek, teamül',
+    examples: [
+      { en: 'When traveling abroad, you must declare all items at customs.' },
+      { en: 'Local customs include celebrating festivals with traditional music and dance.' }
+    ]
+  },
+  {
+    word: 'cut',
+    type: 'v., n.',
+    level: 'A1',
+    pronunciation: '/kʌt/',
+    meaning: 'kesmek, dilimlemek; kesik, yara',
+    examples: [
+      { en: 'Be careful when you cut the paper with scissors.' },
+      { en: 'She got a small cut on her finger while chopping vegetables.' }
+    ]
+  },
+  {
+    word: 'cute',
+    type: 'adj.',
+    level: 'A1',
+    pronunciation: '/kjuːt/',
+    meaning: 'sevimli, tatlı',
+    examples: [
+      { en: 'The puppy is so cute that everyone wants to pet it.' },
+      { en: 'She wore a cute dress that perfectly suited her cheerful personality.' }
+    ]
+  },
+  {
+    word: 'cycle',
+    type: 'n., v. (cycling n.)',
+    level: 'A2',
+    pronunciation: '/ˈsaɪkəl/',
+    meaning: 'bisiklet; döngü, periyot; bisiklete binmek, döngü oluşturmak',
+    examples: [
+      { en: 'He enjoys riding his cycle on the park trails during the weekend.' },
+      { en: 'The cycle of seasons brings different weather patterns throughout the year.' }
     ]
   }
 ];
+
