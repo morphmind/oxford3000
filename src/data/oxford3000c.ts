@@ -845,7 +845,7 @@ export const oxford3000c: Word[] = [
     pronunciation: '/ˈtʃɪərfəl/',
     meaning: 'neşeli, keyifli; neşeyle, sevinçle',
     examples: [
-      { en: 'The cheerful music lifted everyone\\'s spirits during the celebration.' },
+      { en: 'The cheerful music lifted everyone\'s spirits during the celebration.' },
       { en: 'She always has a cheerful smile, which makes her very approachable.' }
     ]
   },
@@ -2068,7 +2068,7 @@ export const oxford3000c: Word[] = [
     meaning: 'kongre, meclis; ulusal parlamento',
     examples: [
       { en: 'The congress met to debate the new legislative proposals.' },
-      { en: 'Members of congress are responsible for representing the people\\'s interests.' }
+      { en: 'Members of congress are responsible for representing the people\'s interests.' }
     ]
   },
   {
@@ -2431,7 +2431,7 @@ export const oxford3000c: Word[] = [
     meaning: 'katkı, bağış; katkıda bulunma',
     examples: [
       { en: 'Her contribution to the charity helped raise a substantial amount of money.' },
-      { en: 'Every member\\'s contribution is vital to the success of the team.' }
+      { en: 'Every member\'s contribution is vital to the success of the team.' }
     ]
   },
   {
@@ -2585,7 +2585,7 @@ export const oxford3000c: Word[] = [
     meaning: 'çekirdek, öz; temel unsur',
     examples: [
       { en: 'Understanding the core principles of the subject is essential for success.' },
-      { en: 'The Earth\\'s core is composed mainly of molten iron and nickel.' }
+      { en: 'The Earth\'s core is composed mainly of molten iron and nickel.' }
     ]
   },
   {

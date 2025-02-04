@@ -31,17 +31,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'dönüştürmek',
     examples: [
       { en: 'Convert dollars to euros.' },
-      { en: 'Convert to Christianity.' }
-    ]
-  },
-  {
-    word: 'convince',
-    type: 'v.',
-    level: 'B1',
-    pronunciation: '/kənˈvɪns/',
-    meaning: 'ikna etmek',
-    examples: [
-      { en: 'Convince someone.' },
+      ,
       { en: 'Hard to convince.' }
     ]
   },
@@ -64,17 +54,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'kurabiye',
     examples: [
       { en: 'Chocolate chip cookies.' },
-      { en: 'Fresh cookies.' }
-    ]
-  },
-  {
-    word: 'cool',
-    type: 'adj., v.',
-    level: 'A1',
-    pronunciation: '/kuːl/',
-    meaning: 'serin, havalı',
-    examples: [
-      { en: 'Cool weather.' },
+      ,
       { en: 'That is really cool!' }
     ]
   },
@@ -141,17 +121,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'doğru, düzeltmek',
     examples: [
       { en: 'Correct answer.' },
-      { en: 'Correct a mistake.' }
-    ]
-  },
-  {
-    word: 'cost',
-    type: 'n., v.',
-    level: 'A1',
-    pronunciation: '/kɒst/',
-    meaning: 'maliyet, mal olmak',
-    examples: [
-      { en: 'The total cost.' },
+      ,
       { en: 'How much does it cost?' }
     ]
   },
@@ -218,17 +188,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'tezgah, sayaç',
     examples: [
       { en: 'Shop counter.' },
-      { en: 'Counter argument.' }
-    ]
-  },
-  {
-    word: 'country',
-    type: 'n.',
-    level: 'A1',
-    pronunciation: '/ˈkʌntri/',
-    meaning: 'ülke',
-    examples: [
-      { en: 'Foreign country.' },
+      ,
       { en: 'Home country.' }
     ]
   },
@@ -273,17 +233,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'cesaret',
     examples: [
       { en: 'Have courage.' },
-      { en: 'Show courage.' }
-    ]
-  },
-  {
-    word: 'course',
-    type: 'n.',
-    level: 'A1',
-    pronunciation: '/kɔːs/',
-    meaning: 'kurs, ders',
-    examples: [
-      { en: 'Language course.' },
+      ,
       { en: 'Of course!' }
     ]
   },
@@ -317,17 +267,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'örtmek, kapak',
     examples: [
       { en: 'Cover your mouth.' },
-      { en: 'Book cover.' }
-    ]
-  },
-  {
-    word: 'cow',
-    type: 'n.',
-    level: 'A1',
-    pronunciation: '/kaʊ/',
-    meaning: 'inek',
-    examples: [
-      { en: 'Milk cow.' },
+      ,
       { en: 'Dairy cow.' }
     ]
   },
@@ -361,17 +301,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'kaza, çarpmak',
     examples: [
       { en: 'Car crash.' },
-      { en: 'Computer crash.' }
-    ]
-  },
-  {
-    word: 'crazy',
-    type: 'adj.',
-    level: 'A2',
-    pronunciation: '/ˈkreɪzi/',
-    meaning: 'çılgın',
-    examples: [
-      { en: 'Crazy idea.' },
+      ,
       { en: 'Drive someone crazy.' }
     ]
   },
@@ -383,17 +313,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'krema',
     examples: [
       { en: 'Ice cream.' },
-      { en: 'Cream cake.' }
-    ]
-  },
-  {
-    word: 'create',
-    type: 'v.',
-    level: 'A2',
-    pronunciation: '/kriˈeɪt/',
-    meaning: 'yaratmak',
-    examples: [
-      { en: 'Create art.' },
+      ,
       { en: 'Create problems.' }
     ]
   },
@@ -416,17 +336,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'yaratıcı',
     examples: [
       { en: 'Creative thinking.' },
-      { en: 'Creative writing.' }
-    ]
-  },
-  {
-    word: 'creature',
-    type: 'n.',
-    level: 'B1',
-    pronunciation: '/ˈkriːtʃə(r)/',
-    meaning: 'yaratık',
-    examples: [
-      { en: 'Strange creature.' },
+      ,
       { en: 'Living creature.' }
     ]
   },
@@ -449,17 +359,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'suç',
     examples: [
       { en: 'Commit a crime.' },
-      { en: 'Crime rate.' }
-    ]
-  },
-  {
-    word: 'criminal',
-    type: 'adj., n.',
-    level: 'B1',
-    pronunciation: '/ˈkrɪmɪnl/',
-    meaning: 'suçlu',
-    examples: [
-      { en: 'Criminal behavior.' },
+      ,
       { en: 'Catch criminals.' }
     ]
   },
@@ -482,17 +382,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'gevrek',
     examples: [
       { en: 'Crisp autumn morning.' },
-      { en: 'Crisp apple.' }
-    ]
-  },
-  {
-    word: 'criterion',
-    type: 'n.',
-    level: 'B2',
-    pronunciation: '/kraɪˈtɪəriən/',
-    meaning: 'kriter',
-    examples: [
-      { en: 'Selection criteria.' },
+      ,
       { en: 'Meet the criteria.' }
     ]
   },
@@ -592,17 +482,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'çok önemli',
     examples: [
       { en: 'Crucial decision.' },
-      { en: 'Crucial moment.' }
-    ]
-  },
-  {
-    word: 'cruel',
-    type: 'adj.',
-    level: 'B1',
-    pronunciation: '/ˈkruːəl/',
-    meaning: 'zalim',
-    examples: [
-      { en: 'Cruel treatment.' },
+      ,
       { en: "Don't be cruel." }
     ]
   },
@@ -647,17 +527,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'kültür',
     examples: [
       { en: 'Popular culture.' },
-      { en: 'Different cultures.' }
-    ]
-  },
-  {
-    word: 'cup',
-    type: 'n.',
-    level: 'A1',
-    pronunciation: '/kʌp/',
-    meaning: 'fincan',
-    examples: [
-      { en: 'Cup of tea.' },
+      ,
       { en: 'World Cup.' }
     ]
   },
@@ -669,17 +539,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'dolap',
     examples: [
       { en: 'Kitchen cupboard.' },
-      { en: 'Empty cupboard.' }
-    ]
-  },
-  {
-    word: 'cure',
-    type: 'v., n.',
-    level: 'B2',
-    pronunciation: '/kjʊə(r)/',
-    meaning: 'tedavi etmek',
-    examples: [
-      { en: 'Cure a disease.' },
+      ,
       { en: 'Find a cure.' }
     ]
   },
@@ -779,17 +639,7 @@ export const oxford3000c2: Word[] = [
     meaning: 'gümrük',
     examples: [
       { en: 'Go through customs.' },
-      { en: 'Customs officer.' }
-    ]
-  },
-  {
-    word: 'cut',
-    type: 'v., n.',
-    level: 'A1',
-    pronunciation: '/kʌt/',
-    meaning: 'kesmek',
-    examples: [
-      { en: 'Cut paper.' },
+      ,
       { en: 'Deep cut.' }
     ]
   },

@@ -129,7 +129,7 @@ import ,
       { en: 'The quality of the work was acceptable, although there is still room for improvement.' },
       ,
       ,
-      { en: 'High-speed internet access is essential in today\\'s digital world.' }
+      { en: 'High-speed internet access is essential in today\'s digital world.' }
     ]
   },
   {
@@ -482,7 +482,7 @@ import ,
     meaning: 'ilerleme, gelişme; ilerlemek, önceden yapmak',
     examples: [
       { en: 'Technological advances have transformed the way we communicate.' },
-      { en: 'They decided to advance the meeting by 15 minutes to accommodate everyone\\'s schedule.' }
+      { en: 'They decided to advance the meeting by 15 minutes to accommodate everyone\'s schedule.' }
     ]
   },
   {
@@ -527,7 +527,7 @@ import ,
     pronunciation: '/ˈædvərˌtaɪzɪŋ/',
     meaning: 'reklamcılık, tanıtım faaliyeti',
     examples: [
-      { en: 'Effective advertising can significantly boost a brand\\'s popularity.' },
+      { en: 'Effective advertising can significantly boost a brand\'s popularity.' },
       { en: 'She decided to pursue a career in advertising after graduating from college.' }
     ]
   },
@@ -551,7 +551,7 @@ import ,
     pronunciation: '/əˈfɛər/',
     meaning: 'olay, mesele; bazen yasak ilişki anlamında da kullanılır',
     examples: [
-      { en: 'The scandal was a private affair that did not affect the organization\\'s reputation.' },
+      { en: 'The scandal was a private affair that did not affect the organization\'s reputation.' },
       ,
       { en: 'Her cheerful smile can affect the mood of an entire room positively.' }
     ]
@@ -733,7 +733,7 @@ import ,
     pronunciation: '/ˈɔːl raɪt/',
     meaning: 'tamam, iyi, sorun yok',
     examples: [
-      { en: 'After checking everything, she said, "All right, let\\'s begin the meeting."' },
+      { en: 'After checking everything, she said, "All right, let\'s begin the meeting."' },
       { en: 'He felt all right after taking some time to rest and recover.' }
     ]
   },
@@ -803,7 +803,7 @@ import ,
       { en: 'Please read the instructions aloud so that everyone can hear them clearly.' },
       ,
       ,
-      { en: 'Please organize the files in alphabetical order by the authors\\' last names.' }
+      { en: 'Please organize the files in alphabetical order by the authors\' last names.' }
     ]
   },
   {
@@ -941,7 +941,7 @@ import ,
     pronunciation: '/əˈmjuːzɪŋ/',
     meaning: 'eğlenceli, komik',
     examples: [
-      { en: 'The comedian\\'s performance was extremely amusing and left the audience in stitches.' },
+      { en: 'The comedian\'s performance was extremely amusing and left the audience in stitches.' },
       { en: 'It is amusing to watch the playful behavior of kittens as they explore their surroundings.' }
     ]
   },
@@ -1090,7 +1090,7 @@ import ,
     meaning: 'yıllık, her yıl yapılan',
     examples: [
       { en: 'The annual festival attracts thousands of visitors every summer.' },
-      { en: 'They hold an annual meeting to review the company\\'s progress and plan for the future.' }
+      { en: 'They hold an annual meeting to review the company\'s progress and plan for the future.' }
     ]
   },
   {
@@ -1100,7 +1100,7 @@ import ,
     pronunciation: '/əˈnjuəli/',
     meaning: 'yıllık olarak, her yıl',
     examples: [
-      { en: 'The report is published annually to summarize the company\\'s performance.' },
+      { en: 'The report is published annually to summarize the company\'s performance.' },
       ,
       ,
       { en: 'After thinking for a moment, she gave a thoughtful answer.' }
@@ -1149,7 +1149,7 @@ import ,
     pronunciation: '/ˌɛniˈmɔːr/',
     meaning: 'artık, eskiden olduğu gibi değil',
     examples: [
-      { en: 'I don\\'t live there anymore after moving to a new city.' },
+      { en: 'I don\'t live there anymore after moving to a new city.' },
       { en: 'They no longer sell that product anymore due to low demand.' }
     ]
   },
@@ -1162,7 +1162,7 @@ import ,
     examples: [
       { en: 'Is there anyone who can help me with this task?' },
       ,
-      { en: 'She didn\\'t say anything when asked about the incident.' }
+      { en: 'She didn\'t say anything when asked about the incident.' }
     ]
   },
   {
@@ -1172,7 +1172,7 @@ import ,
     pronunciation: '/ˈɛniweɪ/',
     meaning: 'her neyse, yine de',
     examples: [
-      { en: 'I wasn\\'t feeling well, but I went to work anyway.' },
+      { en: 'I wasn\'t feeling well, but I went to work anyway.' },
       { en: 'They decided to continue with the plan anyway despite the obstacles.' }
     ]
   },
@@ -1184,7 +1184,7 @@ import ,
     meaning: 'herhangi bir yer, herhangi bir noktada',
     examples: [
       { en: 'You can find that product anywhere in the city if you look hard enough.' },
-      { en: 'He couldn\\'t locate his keys anywhere, no matter how much he searched.' }
+      { en: 'He couldn\'t locate his keys anywhere, no matter how much he searched.' }
     ]
   },
   {
@@ -1369,7 +1369,7 @@ import ,
     meaning: 'tartışmak, münakaşa etmek',
     examples: [
       { en: 'The siblings often argue about whose turn it is to do the dishes.' },
-      { en: 'They argue passionately about politics, though they respect each other\\'s opinions.' }
+      { en: 'They argue passionately about politics, though they respect each other\'s opinions.' }
     ]
   },
   {
@@ -1577,7 +1577,7 @@ import ,
     pronunciation: '/ɑːrˈtɪstɪk/',
     meaning: 'sanatsal, estetik',
     examples: [
-      { en: 'The building\\'s artistic design impressed everyone who visited it.' },
+      { en: 'The building\'s artistic design impressed everyone who visited it.' },
       { en: 'Her artistic flair is evident in every piece of work she creates.' }
     ]
   },
@@ -1951,7 +1951,7 @@ import ,
     pronunciation: '/ˌɔːtəˈmætɪk/',
     meaning: 'otomatik, kendi kendine çalışan',
     examples: [
-      { en: 'The building\\'s automatic doors opened as soon as someone approached.' },
+      { en: 'The building\'s automatic doors opened as soon as someone approached.' },
       { en: 'Modern cars often come with automatic transmission for easier driving.' }
     ]
   },
@@ -1973,7 +1973,7 @@ import ,
     pronunciation: '/əˈveɪləbl/',
     meaning: 'mevcut, ulaşılabilir',
     examples: [
-      { en: 'The information is available on the company\\'s website for anyone to view.' },
+      { en: 'The information is available on the company\'s website for anyone to view.' },
       { en: 'Rooms are available at the hotel on a first-come, first-served basis.' }
     ]
   },
@@ -2051,7 +2051,7 @@ import ,
     meaning: 'korkunç, berbat',
     examples: [
       { en: 'The movie was so awful that many people left the theater early.' },
-      { en: 'He felt awful after realizing he had hurt his friend\\'s feelings.' }
+      { en: 'He felt awful after realizing he had hurt his friend\'s feelings.' }
     ]
   },
   {
@@ -2073,7 +2073,7 @@ import ,
     meaning: 'utangaç, beceriksiz bir şekilde',
     examples: [
       { en: 'She smiled awkwardly when she realized her mistake during the presentation.' },
-      { en: 'He tried to explain his idea, but he spoke awkwardly and lost the audience\\'s attention.' }
+      { en: 'He tried to explain his idea, but he spoke awkwardly and lost the audience\'s attention.' }
     ]
   }
 ];
