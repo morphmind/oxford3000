@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, X, ChevronLeft, ChevronRight, BookOpen, GraduationCap, Users, Clock, ChevronDown, BookmarkPlus, BookmarkCheck, Volume2, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Search, X, ChevronLeft, ChevronRight, BookOpen, GraduationCap, Users, Clock, ChevronDown, BookmarkPlus, BookmarkCheck, Volume2, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube, Linkedin, PenTool } from 'lucide-react';
+import { QuizPage } from './exam/pages/QuizPage';
 import { Word } from './data/oxford3000.types';
 import { oxford3000a } from './data/oxford3000a';
 import { oxford3000b } from './data/oxford3000b';
@@ -38,6 +39,7 @@ function App() {
     const saved = localStorage.getItem('learnedWords');
     return saved ? JSON.parse(saved) : {};
   });
+  const [showQuiz, setShowQuiz] = useState(false);
 
   const wordsPerPage = 12;
   const words = [...oxford3000a, ...oxford3000b, ...oxford3000b2, ...oxford3000c, ...oxford3000d, ...oxford3000e, ...oxford3000f, ...oxford3000g, ...oxford3000h, ...oxford3000i, ...oxford3000j, ...oxford3000k, ...oxford3000l, ...oxford3000m, ...oxford3000n, ...oxford3000o, ...oxford3000p, ...oxford3000q, ...oxford3000r, ...oxford3000s, ...oxford3000t, ...oxford3000u, ...oxford3000v, ...oxford3000w, ...oxford3000y, ...oxford3000z];
@@ -131,6 +133,31 @@ function App() {
               
               <h1 className="text-4xl font-bold text-gray-900 mb-4">Oxford 3000™ Kelime Listesi</h1>
               <p className="text-gray-600 mb-8 max-w-2xl mx-auto">Oxford 3000™ kelime listesi ile İngilizce seviyenizi yükseltin. Özel ders veya online kurs seçeneklerimizle hedefinize daha hızlı ulaşın.</p>
+            
+              <div className="stats-header">
+                <div className="stats-title">
+                  <h3>Kelime Öğrenme İlerlemen</h3>
+                  <span className="stats-subtitle">{learnedWordsCount} / {totalWords} kelime</span>
+                </div>
+                <div className="flex gap-3">
+                  <button 
+                    className={`view-learned ${showLearned ? 'active' : ''}`}
+                    onClick={() => setShowLearned(!showLearned)}
+                  >
+                    {showLearned ? (
+                      <><BookmarkCheck className="w-4 h-4" /> Öğrendiklerim</>
+                    ) : (
+                      <><BookmarkPlus className="w-4 h-4" /> Öğrendiklerimi Göster</>
+                    )}
+                  </button>
+                  <button 
+                    className="view-learned"
+                    onClick={() => setShowQuiz(true)}
+                  >
+                    <PenTool className="w-4 h-4" /> Sınav Ol
+                  </button>
+                </div>
+              </div>
             </div>
 
             <div className="oxford-search">
