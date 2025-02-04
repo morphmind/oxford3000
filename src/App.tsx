@@ -17,6 +17,18 @@ import { oxford3000j } from './data/oxford3000j';
 import { oxford3000k } from './data/oxford3000k';
 import { oxford3000l } from './data/oxford3000l';
 import { oxford3000m } from './data/oxford3000m';
+import { oxford3000n } from './data/oxford3000n';
+import { oxford3000o } from './data/oxford3000o';
+import { oxford3000p } from './data/oxford3000p';
+import { oxford3000q } from './data/oxford3000q';
+import { oxford3000r } from './data/oxford3000r';
+import { oxford3000s } from './data/oxford3000s';
+import { oxford3000t } from './data/oxford3000t';
+import { oxford3000u } from './data/oxford3000u';
+import { oxford3000v } from './data/oxford3000v';
+import { oxford3000w } from './data/oxford3000w';
+import { oxford3000y } from './data/oxford3000y';
+import { oxford3000z } from './data/oxford3000z';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -29,7 +41,7 @@ function App() {
   });
 
   const wordsPerPage = 12;
-  const words = [...oxford3000a, ...oxford3000b, ...oxford3000b2, ...oxford3000c, ...oxford3000c2, ...oxford3000d, ...oxford3000e, ...oxford3000f, ...oxford3000g, ...oxford3000h, ...oxford3000i, ...oxford3000j, ...oxford3000k, ...oxford3000l, ...oxford3000m];
+  const words = [...oxford3000a, ...oxford3000b, ...oxford3000b2, ...oxford3000c, ...oxford3000c2, ...oxford3000d, ...oxford3000e, ...oxford3000f, ...oxford3000g, ...oxford3000h, ...oxford3000i, ...oxford3000j, ...oxford3000k, ...oxford3000l, ...oxford3000m, ...oxford3000n, ...oxford3000o, ...oxford3000p, ...oxford3000q, ...oxford3000r, ...oxford3000s, ...oxford3000t, ...oxford3000u, ...oxford3000v, ...oxford3000w, ...oxford3000y, ...oxford3000z];
   
   // Calculate total and learned words
   const totalWords = words.length;
@@ -551,7 +563,6 @@ function App() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </main>
