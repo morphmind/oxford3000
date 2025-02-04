@@ -1,4 +1,14 @@
-import ,
+import { Word } from './oxford3000.types';
+
+export const oxford3000a: Word[] = [
+  {
+    word: 'a, an',
+    type: 'indefinite article',
+    level: 'A1',
+    pronunciation: '/eɪ, æn/',
+    meaning: 'belirsiz artikel; herhangi bir nesne ya da kişiyi tanımlamak için kullanılır',
+    examples: [
+      { en: 'Use "a" before words beginning with a consonant sound and "an" before words beginning with a vowel sound.' },
       { en: 'For example, you say a car but an apple.' }
     ]
   },
@@ -32,11 +42,61 @@ import ,
     meaning: 'yetenek, kabiliyet',
     examples: [
       { en: 'Her ability to solve complex puzzles amazed everyone in the class.' },
-      ,
-      ,
-      ,
-      ,
-      ,
+      { en: 'He has the ability to learn new languages quickly and effectively.' }
+    ]
+  },
+  {
+    word: 'able',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ˈeɪbəl/',
+    meaning: 'yetenekli, yapabilen',
+    examples: [
+      { en: 'She is able to complete challenging tasks even under pressure.' },
+      { en: 'The athlete is able to run long distances without tiring quickly.' }
+    ]
+  },
+  {
+    word: 'unable',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ʌnˈeɪbəl/',
+    meaning: 'yapamayan, beceremeyen',
+    examples: [
+      { en: 'He was unable to attend the meeting due to an unexpected emergency.' },
+      { en: 'The computer was unable to process the data because of a system error.' }
+    ]
+  },
+  {
+    word: 'about',
+    type: 'adv., prep.',
+    level: 'A1',
+    pronunciation: '/əˈbaʊt/',
+    meaning: 'hakkında, yaklaşık, etrafında',
+    examples: [
+      { en: 'She talked about her recent travels in great detail.' },
+      { en: 'There are about twenty students in the class, give or take a few.' }
+    ]
+  },
+  {
+    word: 'above',
+    type: 'prep., adv.',
+    level: 'A2',
+    pronunciation: '/əˈbʌv/',
+    meaning: 'üstünde, yukarıda',
+    examples: [
+      { en: 'The painting hangs above the fireplace, adding elegance to the room.' },
+      { en: 'Temperatures above 30°C are common during the summer months in that region.' }
+    ]
+  },
+  {
+    word: 'abroad',
+    type: 'adv.',
+    level: 'A2',
+    pronunciation: '/əˈbrɔːd/',
+    meaning: 'yurt dışında, yurt dışına',
+    examples: [
+      { en: 'She spent a year studying abroad to experience different cultures.' },
       { en: 'Many students dream of traveling abroad to broaden their horizons.' }
     ]
   },
@@ -92,8 +152,28 @@ import ,
     meaning: 'emmek, soğurmak',
     examples: [
       { en: 'The sponge can absorb a large amount of water in just a few seconds.' },
-      ,
-      ,
+      { en: 'Plants absorb sunlight to produce energy through photosynthesis.' }
+    ]
+  },
+  {
+    word: 'abuse',
+    type: 'n., v.',
+    level: 'B2',
+    pronunciation: '/əˈbjuːs/',
+    meaning: 'istismar, kötüye kullanma; kötüye kullanmak, istismar etmek',
+    examples: [
+      { en: 'The organization is dedicated to preventing abuse in all its forms.' },
+      { en: 'He was accused of abusing his power for personal gain.' }
+    ]
+  },
+  {
+    word: 'academic',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ˌækəˈdɛmɪk/',
+    meaning: 'akademik, öğrenimle ilgili',
+    examples: [
+      { en: 'She published several academic papers on the topic of renewable energy.' },
       { en: 'Academic achievements are highly valued at this university.' }
     ]
   },
@@ -127,8 +207,28 @@ import ,
     meaning: 'kabul edilebilir, uygun',
     examples: [
       { en: 'The quality of the work was acceptable, although there is still room for improvement.' },
-      ,
-      ,
+      { en: 'It is acceptable to ask questions when you do not understand something clearly.' }
+    ]
+  },
+  {
+    word: 'unacceptable',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ʌnəkˈsɛptəbl/',
+    meaning: 'kabul edilemez, uygunsuz',
+    examples: [
+      { en: 'His behavior at the meeting was completely unacceptable and was criticized by everyone.' },
+      { en: 'Leaving your belongings unattended in public is simply unacceptable.' }
+    ]
+  },
+  {
+    word: 'access',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈæksɛs/',
+    meaning: 'erişim, ulaşım',
+    examples: [
+      { en: 'Students have access to a vast library of online resources for their research.' },
       { en: 'High-speed internet access is essential in today\'s digital world.' }
     ]
   },
@@ -184,8 +284,28 @@ import ,
     meaning: 'eşlik etmek, birlikte olmak',
     examples: [
       { en: 'He was asked to accompany her to the formal dinner as her guest.' },
-      ,
-      ,
+      { en: 'The gentle music was meant to accompany the graceful dance performance.' }
+    ]
+  },
+  {
+    word: 'according to',
+    type: 'prep.',
+    level: 'B1',
+    pronunciation: '/əˈkɔːrdɪŋ tuː/',
+    meaning: 'göre, istinaden',
+    examples: [
+      { en: 'According to the weather forecast, it will rain later this afternoon.' },
+      { en: 'The report was written according to the latest scientific research.' }
+    ]
+  },
+  {
+    word: 'account',
+    type: 'n., v.',
+    level: 'B1',
+    pronunciation: '/əˈkaʊnt/',
+    meaning: 'hesap, açıklama; açıklamak, anlatmak',
+    examples: [
+      { en: 'She opened a savings account at the bank to manage her money.' },
       { en: 'Please account for every expense when you prepare the financial report.' }
     ]
   },
@@ -208,10 +328,50 @@ import ,
     meaning: 'doğru bir şekilde, kesin olarak',
     examples: [
       { en: 'He was able to accurately predict the outcome of the experiment.' },
-      ,
-      ,
-      ,
-      ,
+      { en: 'The clock displays the time accurately down to the second.' }
+    ]
+  },
+  {
+    word: 'accuse',
+    type: 'v.',
+    level: 'B2',
+    pronunciation: '/əˈkjuːz/',
+    meaning: 'suçlamak, iddia etmek',
+    examples: [
+      { en: 'She was quick to accuse him of lying, even though there was little evidence.' },
+      { en: 'The prosecutor accused the defendant of committing the crime intentionally.' }
+    ]
+  },
+  {
+    word: 'achieve',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/əˈtʃiːv/',
+    meaning: 'başarmak, elde etmek',
+    examples: [
+      { en: 'With determination and hard work, you can achieve your dreams.' },
+      { en: 'He achieved remarkable success in his career at a very young age.' }
+    ]
+  },
+  {
+    word: 'achievement',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/əˈtʃiːvmənt/',
+    meaning: 'başarı, elde etme',
+    examples: [
+      { en: 'Graduating with honors was a significant achievement for her.' },
+      { en: 'The team celebrated their achievement after winning the championship.' }
+    ]
+  },
+  {
+    word: 'acid',
+    type: 'n.',
+    level: 'B2',
+    pronunciation: '/ˈæsɪd/',
+    meaning: 'asit, ekşi madde',
+    examples: [
+      { en: 'Lemon juice is highly acid and can be used as a natural cleaning agent.' },
       { en: 'Some fruits contain acid that gives them their distinctive tangy taste.' }
     ]
   },
@@ -223,7 +383,17 @@ import ,
     meaning: 'kabul etmek, onaylamak',
     examples: [
       { en: 'He had to acknowledge his mistake during the meeting and apologize.' },
-      ,
+      { en: 'She nodded to acknowledge the receipt of the important package.' }
+    ]
+  },
+  {
+    word: 'acquire',
+    type: 'v.',
+    level: 'B2',
+    pronunciation: '/əˈkwaɪər/',
+    meaning: 'edinmek, kazanmak',
+    examples: [
+      { en: 'Over the years, she managed to acquire extensive knowledge in her field.' },
       { en: 'They acquired a smaller company in order to expand their market share.' }
     ]
   },
@@ -235,7 +405,17 @@ import ,
     meaning: 'karşıdan karşıya, boyunca',
     examples: [
       { en: 'She walked carefully across the busy street during rush hour.' },
-      ,
+      { en: 'A beautiful bridge spans across the wide river, connecting the two towns.' }
+    ]
+  },
+  {
+    word: 'act',
+    type: 'n., v.',
+    level: 'A2',
+    pronunciation: '/ækt/',
+    meaning: 'eylem, davranış; hareket etmek, davranmak',
+    examples: [
+      { en: 'Her act of kindness left a lasting impression on everyone who witnessed it.' },
       { en: 'It is important to act in a responsible manner during difficult times.' }
     ]
   },
@@ -324,7 +504,17 @@ import ,
     meaning: 'gerçek, aslında var olan',
     examples: [
       { en: 'The actual cost of the project turned out to be much higher than estimated.' },
-      ,
+      { en: 'It is important to know the actual facts before making any conclusions.' }
+    ]
+  },
+  {
+    word: 'actually',
+    type: 'adv.',
+    level: 'B1',
+    pronunciation: '/ˈæktʃuəli/',
+    meaning: 'aslında, gerçekte',
+    examples: [
+      { en: 'I actually prefer reading books over watching movies.' },
       { en: 'She is actually very knowledgeable about ancient history despite her young age.' }
     ]
   },
@@ -347,7 +537,17 @@ import ,
     meaning: 'uyum sağlamak, adapte olmak',
     examples: [
       { en: 'It is important to adapt to new circumstances in order to succeed in life.' },
-      ,
+      { en: 'Many species adapt to their environment to survive extreme conditions.' }
+    ]
+  },
+  {
+    word: 'add',
+    type: 'v.',
+    level: 'A1',
+    pronunciation: '/æd/',
+    meaning: 'eklemek, ilave etmek',
+    examples: [
+      { en: 'Please add a pinch of salt to the soup to enhance its flavor.' },
       { en: 'She decided to add an extra chapter to her novel for more clarity.' }
     ]
   },
@@ -447,8 +647,28 @@ import ,
     meaning: 'hayranlık, övgü',
     examples: [
       { en: 'His dedication to his craft earned him the admiration of his peers.' },
-      ,
-      ,
+      { en: 'She looked at the breathtaking scenery with genuine admiration.' }
+    ]
+  },
+  {
+    word: 'admire',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/ədˈmaɪər/',
+    meaning: 'hayran olmak, takdir etmek',
+    examples: [
+      { en: 'Many people admire her for her intelligence and compassion.' },
+      { en: 'He admires the artist\'s ability to capture emotion in his paintings.' }
+    ]
+  },
+  {
+    word: 'admit',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/ədˈmɪt/',
+    meaning: 'kabul etmek, itiraf etmek',
+    examples: [
+      { en: 'He had to admit that he was wrong about the issue.' },
       { en: 'She admitted her mistake and promised to do better next time.' }
     ]
   },
@@ -515,8 +735,28 @@ import ,
     meaning: 'avantaj, üstünlük',
     examples: [
       { en: 'One advantage of living in the city is the easy access to public transportation.' },
-      ,
-      ,
+      { en: 'She took advantage of the discount offer to buy a new laptop.' }
+    ]
+  },
+  {
+    word: 'adventure',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/ədˈvɛntʃər/',
+    meaning: 'macera, serüven',
+    examples: [
+      { en: 'They embarked on an adventure through the dense jungle during their vacation.' },
+      { en: 'Every new journey is an adventure that offers a chance to learn and grow.' }
+    ]
+  },
+  {
+    word: 'advertise',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/ˈædvərtaɪz/',
+    meaning: 'reklam yapmak, tanıtmak',
+    examples: [
+      { en: 'The company plans to advertise its new product on television and social media.' },
       { en: 'They hired an agency to advertise the upcoming event in major newspapers.' }
     ]
   },
@@ -539,8 +779,28 @@ import ,
     meaning: 'reklam, ilan',
     examples: [
       { en: 'The advertisement in the magazine featured a new line of cosmetics.' },
-      ,
-      ,
+      { en: 'They placed an advertisement online to promote their summer sale.' }
+    ]
+  },
+  {
+    word: 'advice',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ədˈvaɪs/',
+    meaning: 'tavsiye, nasihat',
+    examples: [
+      { en: 'My teacher gave me valuable advice on how to improve my study habits.' },
+      { en: 'She always seeks her parents\' advice when facing difficult decisions.' }
+    ]
+  },
+  {
+    word: 'advise',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/ədˈvaɪz/',
+    meaning: 'tavsiye etmek, önermek',
+    examples: [
+      { en: 'The consultant advised the company to invest in new technology.' },
       { en: 'He advised her to take a break and relax after the long meeting.' }
     ]
   },
@@ -552,7 +812,17 @@ import ,
     meaning: 'olay, mesele; bazen yasak ilişki anlamında da kullanılır',
     examples: [
       { en: 'The scandal was a private affair that did not affect the organization\'s reputation.' },
-      ,
+      { en: 'She managed the family affairs with great care and dedication.' }
+    ]
+  },
+  {
+    word: 'affect',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/əˈfɛkt/',
+    meaning: 'etkilemek, tesir etmek',
+    examples: [
+      { en: 'The new policy will affect thousands of people across the country.' },
       { en: 'Her cheerful smile can affect the mood of an entire room positively.' }
     ]
   },
@@ -575,9 +845,39 @@ import ,
     meaning: 'maddi olarak gücü yetmek, yapabilmek',
     examples: [
       { en: 'They could not afford to buy a new car because of financial difficulties.' },
-      ,
-      ,
-      ,
+      { en: 'She saved money for months so that she could afford a vacation abroad.' }
+    ]
+  },
+  {
+    word: 'afraid',
+    type: 'adj.',
+    level: 'A1',
+    pronunciation: '/əˈfreɪd/',
+    meaning: 'korkmuş, endişeli',
+    examples: [
+      { en: 'He is afraid of heights and avoids climbing tall buildings.' },
+      { en: 'She was afraid to speak in public until she practiced extensively.' }
+    ]
+  },
+  {
+    word: 'after',
+    type: 'prep., conj., adv.',
+    level: 'A1',
+    pronunciation: '/ˈæftər/',
+    meaning: 'sonra, ardından; -den sonra',
+    examples: [
+      { en: 'After the movie, we went out for dinner to discuss our favorite scenes.' },
+      { en: 'She likes to relax after finishing all her work for the day.' }
+    ]
+  },
+  {
+    word: 'afternoon',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˌæftərˈnuːn/',
+    meaning: 'öğleden sonra, akşamüstü',
+    examples: [
+      { en: 'They usually have lunch in the early afternoon when the sun is not too hot.' },
       { en: 'Afternoon sessions at the conference are designed to be interactive and engaging.' }
     ]
   },
@@ -589,7 +889,17 @@ import ,
     meaning: 'sonrasında, daha sonra',
     examples: [
       { en: 'We went for a walk afterward to enjoy the cool evening air.' },
-      ,
+      { en: 'Afterward, everyone gathered to discuss the results of the meeting.' }
+    ]
+  },
+  {
+    word: 'again',
+    type: 'adv.',
+    level: 'A1',
+    pronunciation: '/əˈɡɛn/',
+    meaning: 'tekrar, yeniden',
+    examples: [
+      { en: 'I will call you again tomorrow to confirm the details.' },
       { en: 'After a short break, they resumed the discussion again with renewed energy.' }
     ]
   },
@@ -601,8 +911,28 @@ import ,
     meaning: '-e karşı, zıt',
     examples: [
       { en: 'She leaned against the wall while waiting for the bus.' },
-      ,
-      ,
+      { en: 'The new law was introduced against the backdrop of rising crime rates.' }
+    ]
+  },
+  {
+    word: 'age',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/eɪdʒ/',
+    meaning: 'yaş, ömür; yaşam evresi',
+    examples: [
+      { en: 'Age is just a number when you keep a youthful spirit.' },
+      { en: 'He celebrated his 50th birthday with a big party, cherishing every moment of his age.' }
+    ]
+  },
+  {
+    word: 'agency',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈeɪdʒənsi/',
+    meaning: 'ajans, kurum',
+    examples: [
+      { en: 'The travel agency helped them plan an unforgettable vacation abroad.' },
       { en: 'Several advertising agencies competed for the prestigious account.' }
     ]
   },
@@ -625,11 +955,61 @@ import ,
     meaning: 'ajans temsilcisi, ajan',
     examples: [
       { en: 'The secret agent embarked on a dangerous mission to gather crucial intelligence.' },
-      ,
-      ,
-      ,
-      ,
-      ,
+      { en: 'He works as a travel agent, booking vacations for clients around the world.' }
+    ]
+  },
+  {
+    word: 'aggressive',
+    type: 'adj.',
+    level: 'B2',
+    pronunciation: '/əˈɡrɛsɪv/',
+    meaning: 'saldırgan, hırçın',
+    examples: [
+      { en: 'His aggressive approach during negotiations often intimidated his opponents.' },
+      { en: 'The aggressive dog was properly trained to avoid any harm to people.' }
+    ]
+  },
+  {
+    word: 'ago',
+    type: 'adv.',
+    level: 'A1',
+    pronunciation: '/əˈɡoʊ/',
+    meaning: 'önce, evvelce',
+    examples: [
+      { en: 'I visited London two years ago and fell in love with the city.' },
+      { en: 'The incident happened a long time ago and is rarely mentioned nowadays.' }
+    ]
+  },
+  {
+    word: 'agree',
+    type: 'v.',
+    level: 'A1',
+    pronunciation: '/əˈɡriː/',
+    meaning: 'katılmak, aynı fikirde olmak',
+    examples: [
+      { en: 'They agree on most issues despite their occasional disagreements.' },
+      { en: 'I completely agree with your suggestion about improving the project workflow.' }
+    ]
+  },
+  {
+    word: 'agreement',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/əˈɡriːmənt/',
+    meaning: 'anlaşma, uzlaşma',
+    examples: [
+      { en: 'The two companies reached an agreement to merge their operations.' },
+      { en: 'After lengthy discussions, an agreement was finally signed by all parties involved.' }
+    ]
+  },
+  {
+    word: 'ahead',
+    type: 'adv.',
+    level: 'A2',
+    pronunciation: '/əˈhɛd/',
+    meaning: 'ileride, önde',
+    examples: [
+      { en: 'Look ahead and plan for the challenges that may arise in the future.' },
       { en: 'They moved ahead with the project despite the initial setbacks.' }
     ]
   },
@@ -652,9 +1032,39 @@ import ,
     meaning: 'hedef, amaç; hedeflemek, niyet etmek',
     examples: [
       { en: 'His aim is to become a successful entrepreneur in the technology sector.' },
-      ,
-      ,
-      ,
+      { en: 'She aimed carefully before launching the ball toward the goal.' }
+    ]
+  },
+  {
+    word: 'air',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ɛər/',
+    meaning: 'hava, atmosfer',
+    examples: [
+      { en: 'The crisp mountain air was refreshing after a long day of hiking.' },
+      { en: 'Fresh air is essential for a healthy lifestyle, so open the window and let it in.' }
+    ]
+  },
+  {
+    word: 'aircraft',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈɛərkræft/',
+    meaning: 'uçak, hava aracı',
+    examples: [
+      { en: 'The modern aircraft is designed with advanced technology to ensure safety and efficiency.' },
+      { en: 'During the storm, the aircraft experienced turbulence but landed safely.' }
+    ]
+  },
+  {
+    word: 'airport',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈɛərpɔːrt/',
+    meaning: 'havaalanı, terminal',
+    examples: [
+      { en: 'They arrived at the airport well in advance of their international flight.' },
       { en: 'The airport offers a wide range of services for travelers, including duty-free shops and lounges.' }
     ]
   },
@@ -666,7 +1076,17 @@ import ,
     meaning: 'alarm, çalar saat; uyarmak, paniğe kapmak',
     examples: [
       { en: 'The loud alarm startled everyone in the building during the early morning hours.' },
-      ,
+      { en: 'She was alarmed by the sudden noise coming from the crowded street.' }
+    ]
+  },
+  {
+    word: 'alarming',
+    type: 'adj.',
+    level: 'B2',
+    pronunciation: '/əˈlɑːrmɪŋ/',
+    meaning: 'endişe verici, korkutucu',
+    examples: [
+      { en: 'The rapid spread of the virus was truly alarming to public health officials.' },
       { en: 'It is alarming how little progress has been made in reducing pollution in the city.' }
     ]
   },
@@ -711,7 +1131,17 @@ import ,
     meaning: 'canlı, hayatta',
     examples: [
       { en: 'The forest is alive with the sounds of birds and rustling leaves.' },
-      ,
+      { en: 'She felt truly alive when she was out in nature, enjoying the fresh air and sunshine.' }
+    ]
+  },
+  {
+    word: 'all',
+    type: 'det., pron., adv.',
+    level: 'A1',
+    pronunciation: '/ɔːl/',
+    meaning: 'tüm, hepsi, tamamen',
+    examples: [
+      { en: 'All the students participated in the cultural event with enthusiasm.' },
       { en: 'She gave her all in every task, leaving nothing to chance.' }
     ]
   },
@@ -767,7 +1197,17 @@ import ,
     meaning: 'neredeyse, hemen hemen',
     examples: [
       { en: 'I almost missed the bus this morning because I woke up late.' },
-      ,
+      { en: 'She has almost finished reading the entire novel, leaving only a few pages.' }
+    ]
+  },
+  {
+    word: 'alone',
+    type: 'adj., adv.',
+    level: 'A2',
+    pronunciation: '/əˈloʊn/',
+    meaning: 'yalnız, tek başına',
+    examples: [
+      { en: 'He prefers to work alone because it helps him concentrate better.' },
       { en: 'Sometimes being alone for a while can help you gather your thoughts and feel refreshed.' }
     ]
   },
@@ -801,8 +1241,28 @@ import ,
     meaning: 'yüksek sesle, sesli olarak',
     examples: [
       { en: 'Please read the instructions aloud so that everyone can hear them clearly.' },
-      ,
-      ,
+      { en: 'The child sang the nursery rhyme aloud with great enthusiasm.' }
+    ]
+  },
+  {
+    word: 'alphabet',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈælfəbɛt/',
+    meaning: 'alfabe, harf dizisi',
+    examples: [
+      { en: 'Learning the alphabet is the first step in reading and writing.' },
+      { en: 'Children often sing the alphabet song to memorize the order of letters.' }
+    ]
+  },
+  {
+    word: 'alphabetical',
+    type: 'adj.',
+    level: 'A2',
+    pronunciation: '/ˌælfəˈbɛtɪkəl/',
+    meaning: 'alfabetik, harf sırasına göre',
+    examples: [
+      { en: 'The dictionary is arranged in alphabetical order for easy reference.' },
       { en: 'Please organize the files in alphabetical order by the authors\' last names.' }
     ]
   },
@@ -825,7 +1285,17 @@ import ,
     meaning: 'zaten, çoktan',
     examples: [
       { en: 'I have already finished my homework before dinner.' },
-      ,
+      { en: 'They already knew about the change in schedule from the meeting notice.' }
+    ]
+  },
+  {
+    word: 'also',
+    type: 'adv.',
+    level: 'A1',
+    pronunciation: '/ˈɔːlsoʊ/',
+    meaning: 'ayrıca, ayrıca',
+    examples: [
+      { en: 'She not only sings beautifully but also plays the piano skillfully.' },
       { en: 'They visited the museum and also went for a walk in the park.' }
     ]
   },
@@ -837,7 +1307,17 @@ import ,
     meaning: 'değiştirmek, değiştirmek üzere düzenlemek',
     examples: [
       { en: 'The tailor had to alter the suit to fit him perfectly.' },
-      ,
+      { en: 'Her plans had to be altered due to unforeseen circumstances.' }
+    ]
+  },
+  {
+    word: 'alternative',
+    type: 'n., adj.',
+    level: 'B1',
+    pronunciation: '/ɔːlˈtɜːrnətɪv/',
+    meaning: 'alternatif, seçenek; alternatif olarak',
+    examples: [
+      { en: 'They provided an alternative solution when the original plan failed.' },
       { en: 'Vegetarian food is a healthy alternative to meat-based dishes.' }
     ]
   },
@@ -849,7 +1329,17 @@ import ,
     meaning: 'alternatif olarak, başka bir şekilde',
     examples: [
       { en: 'Alternatively, you could try restarting your computer to fix the issue.' },
-      ,
+      { en: 'She can work remotely or, alternatively, come to the office on certain days.' }
+    ]
+  },
+  {
+    word: 'although',
+    type: 'conj.',
+    level: 'B1',
+    pronunciation: '/ɔːlˈðoʊ/',
+    meaning: 'her ne kadar, rağmen',
+    examples: [
+      { en: 'Although it was raining, they continued their walk in the park.' },
       { en: 'She finished the task, although it took much longer than expected.' }
     ]
   },
@@ -861,7 +1351,17 @@ import ,
     meaning: 'tamamen, tamamen; toplamda',
     examples: [
       { en: 'Altogether, the project took more time than anyone had anticipated.' },
-      ,
+      { en: 'She was altogether delighted with the unexpected gift.' }
+    ]
+  },
+  {
+    word: 'always',
+    type: 'adv.',
+    level: 'A1',
+    pronunciation: '/ˈɔːlweɪz/',
+    meaning: 'her zaman, daima',
+    examples: [
+      { en: 'He always smiles when he sees his friends.' },
       { en: 'Always check your work carefully before submitting it.' }
     ]
   },
@@ -873,7 +1373,17 @@ import ,
     meaning: 'öğleden önce (ante meridiem); sabah saatleri',
     examples: [
       { en: 'The meeting is scheduled for 9 a.m. every weekday.' },
-      ,
+      { en: 'She wakes up at 6 a.m. to start her day early.' }
+    ]
+  },
+  {
+    word: 'amaze',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/əˈmeɪz/',
+    meaning: 'şaşırtmak, hayran bırakmak',
+    examples: [
+      { en: 'The magician never failed to amaze the audience with his tricks.' },
       { en: 'Her talent for music continues to amaze everyone who hears her play.' }
     ]
   },
@@ -896,7 +1406,17 @@ import ,
     meaning: 'şaşkın, hayran kalmış',
     examples: [
       { en: 'She was amazed by the complexity of the ancient ruins during her visit.' },
-      ,
+      { en: 'They were amazed at how quickly the technology evolved over the past decade.' }
+    ]
+  },
+  {
+    word: 'ambition',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/æmˈbɪʃən/',
+    meaning: 'hırs, tutku, azim',
+    examples: [
+      { en: 'Her ambition to become a leader drove her to work tirelessly every day.' },
       { en: 'Ambition and hard work are the keys to achieving great success in any field.' }
     ]
   },
@@ -919,7 +1439,17 @@ import ,
     meaning: 'arasında, içlerinde',
     examples: [
       { en: 'She was popular among her classmates for her kind nature.' },
-      ,
+      { en: 'Discussions among experts led to new insights on the subject.' }
+    ]
+  },
+  {
+    word: 'amount',
+    type: 'n., v.',
+    level: 'A2',
+    pronunciation: '/əˈmaʊnt/',
+    meaning: 'miktar, tutar; hesaplamak, ölçmek',
+    examples: [
+      { en: 'The total amount of money raised was far beyond our expectations.' },
       { en: 'He struggled to amount his savings at the end of the month.' }
     ]
   },
@@ -986,10 +1516,50 @@ import ,
     meaning: 'antik, çok eski',
     examples: [
       { en: 'The ancient ruins attracted historians and tourists from around the world.' },
-      ,
-      ,
-      ,
-      ,
+      { en: 'She read a book about ancient civilizations and their fascinating cultures.' }
+    ]
+  },
+  {
+    word: 'and',
+    type: 'conj.',
+    level: 'A1',
+    pronunciation: '/ænd/',
+    meaning: 've, ayrıca',
+    examples: [
+      { en: 'He bought apples and oranges from the market.' },
+      { en: 'She sings and dances with great enthusiasm at every party.' }
+    ]
+  },
+  {
+    word: 'anger',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈæŋɡər/',
+    meaning: 'öfk, kızgınlık',
+    examples: [
+      { en: 'His sudden outburst of anger shocked everyone in the room.' },
+      { en: 'Managing anger effectively is important for maintaining healthy relationships.' }
+    ]
+  },
+  {
+    word: 'angle',
+    type: 'n.',
+    level: 'B1',
+    pronunciation: '/ˈæŋɡəl/',
+    meaning: 'açı, perspektif',
+    examples: [
+      { en: 'The photographer adjusted the camera to capture the perfect angle of the sunset.' },
+      { en: 'She looked at the problem from a different angle to find a creative solution.' }
+    ]
+  },
+  {
+    word: 'angry',
+    type: 'adj.',
+    level: 'A1',
+    pronunciation: '/ˈæŋɡri/',
+    meaning: 'kızgın, öfkeli',
+    examples: [
+      { en: 'He was angry when he discovered that his car had been scratched.' },
       { en: 'The teacher became angry when the students ignored the instructions.' }
     ]
   },
@@ -1001,7 +1571,17 @@ import ,
     meaning: 'öfkeli, kızgın bir şekilde',
     examples: [
       { en: 'She spoke angrily to the customer service representative about the poor service.' },
-      ,
+      { en: 'He slammed the door angrily after the argument ended.' }
+    ]
+  },
+  {
+    word: 'animal',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈænɪməl/',
+    meaning: 'hayvan, canlı varlık',
+    examples: [
+      { en: 'The zoo has a wide variety of animals from all over the world.' },
       { en: 'Many people enjoy watching animals in their natural habitats.' }
     ]
   },
@@ -1101,8 +1681,28 @@ import ,
     meaning: 'yıllık olarak, her yıl',
     examples: [
       { en: 'The report is published annually to summarize the company\'s performance.' },
-      ,
-      ,
+      { en: 'They celebrate their anniversary annually with a big family gathering.' }
+    ]
+  },
+  {
+    word: 'another',
+    type: 'det., pron.',
+    level: 'A1',
+    pronunciation: '/əˈnʌðər/',
+    meaning: 'başka, ilave, bir tane daha',
+    examples: [
+      { en: 'Would you like another cup of tea after finishing the first one?' },
+      { en: 'She asked for another chance to prove her abilities.' }
+    ]
+  },
+  {
+    word: 'answer',
+    type: 'n., v.',
+    level: 'A1',
+    pronunciation: '/ˈænsər/',
+    meaning: 'cevap, yanıt; cevaplamak, yanıt vermek',
+    examples: [
+      { en: 'He raised his hand to answer the teacher\'s question.' },
       { en: 'After thinking for a moment, she gave a thoughtful answer.' }
     ]
   },
@@ -1114,7 +1714,17 @@ import ,
     meaning: 'karşı, zıt',
     examples: [
       { en: 'Anti-bullying campaigns are important to create a safe school environment.' },
-      ,
+      { en: 'He holds strong anti-war views and advocates for peaceful solutions.' }
+    ]
+  },
+  {
+    word: 'anticipate',
+    type: 'v.',
+    level: 'B2',
+    pronunciation: '/ænˈtɪsɪpeɪt/',
+    meaning: 'beklemek, önceden tahmin etmek',
+    examples: [
+      { en: 'We anticipate that the new product will be very popular among consumers.' },
       { en: 'She could hardly anticipate the challenges that lay ahead in her new role.' }
     ]
   },
@@ -1126,7 +1736,17 @@ import ,
     meaning: 'anksiyete, kaygı',
     examples: [
       { en: 'The exam period filled him with anxiety about his performance.' },
-      ,
+      { en: 'Techniques such as meditation can help reduce anxiety in stressful situations.' }
+    ]
+  },
+  {
+    word: 'anxious',
+    type: 'adj.',
+    level: 'B1',
+    pronunciation: '/ˈæŋkʃəs/',
+    meaning: 'endişeli, kaygılı',
+    examples: [
+      { en: 'She felt anxious about starting her new job in a foreign country.' },
       { en: 'The students were anxious as they awaited the results of their final exams.' }
     ]
   },
@@ -1138,7 +1758,17 @@ import ,
     meaning: 'endişeyle, kaygılı bir şekilde',
     examples: [
       { en: 'They waited anxiously for the news after the storm hit the coast.' },
-      ,
+      { en: 'He looked around anxiously, wondering if his friend would arrive on time.' }
+    ]
+  },
+  {
+    word: 'any',
+    type: 'det., pron., adv.',
+    level: 'A1',
+    pronunciation: '/ˈɛni/',
+    meaning: 'herhangi bir, hiçbir, biraz',
+    examples: [
+      { en: 'You can choose any book from the library for your research.' },
       { en: 'If you have any questions, please feel free to ask.' }
     ]
   },
@@ -1161,7 +1791,17 @@ import ,
     meaning: 'her kim, herhangi biri',
     examples: [
       { en: 'Is there anyone who can help me with this task?' },
-      ,
+      { en: 'Anyone interested in joining the club is welcome to attend the meeting.' }
+    ]
+  },
+  {
+    word: 'anything',
+    type: 'pron.',
+    level: 'A1',
+    pronunciation: '/ˈɛniθɪŋ/',
+    meaning: 'herhangi bir şey',
+    examples: [
+      { en: 'If you need anything, just let me know and I\'ll be happy to help.' },
       { en: 'She didn\'t say anything when asked about the incident.' }
     ]
   },
@@ -1206,7 +1846,17 @@ import ,
     meaning: 'hariç, dışında',
     examples: [
       { en: 'Apart from a few minor issues, the project was a complete success.' },
-      ,
+      { en: 'Aside from her busy schedule, she always finds time for her family.' }
+    ]
+  },
+  {
+    word: 'apartment',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/əˈpɑːrtmənt/',
+    meaning: 'daire, apartman dairesi',
+    examples: [
+      { en: 'They rented a spacious apartment in the city center.' },
       { en: 'Her apartment is decorated with modern furniture and lots of natural light.' }
     ]
   },
@@ -1251,9 +1901,39 @@ import ,
     meaning: 'cazibe, hitap; hitap etmek, çağrıda bulunmak',
     examples: [
       { en: 'The charity appeal raised thousands of dollars for the needy.' },
-      ,
-      ,
-      ,
+      { en: 'Her story appeals to many people who have faced similar challenges.' }
+    ]
+  },
+  {
+    word: 'appear',
+    type: 'v.',
+    level: 'A2',
+    pronunciation: '/əˈpɪər/',
+    meaning: 'görünmek, belirmek',
+    examples: [
+      { en: 'He appeared calm and confident during the interview.' },
+      { en: 'The solution to the problem did not appear as obvious as we had thought.' }
+    ]
+  },
+  {
+    word: 'appearance',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/əˈpɪərəns/',
+    meaning: 'görünüş, dış görünüş',
+    examples: [
+      { en: 'Her appearance at the event was both elegant and sophisticated.' },
+      { en: 'The building\'s appearance was completely transformed after the renovation.' }
+    ]
+  },
+  {
+    word: 'apple',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈæpl/',
+    meaning: 'elma',
+    examples: [
+      { en: 'An apple a day keeps the doctor away, as the old saying goes.' },
       { en: 'She enjoyed a crisp, juicy apple as a healthy snack.' }
     ]
   },
@@ -1287,9 +1967,39 @@ import ,
     meaning: 'atanmak, görevlendirmek',
     examples: [
       { en: 'The board decided to appoint a new manager for the department.' },
-      ,
-      ,
-      ,
+      { en: 'He was appointed as the team leader due to his excellent organizational skills.' }
+    ]
+  },
+  {
+    word: 'appointment',
+    type: 'n.',
+    level: 'A2',
+    pronunciation: '/əˈpɔɪntmənt/',
+    meaning: 'randevu, görüşme, atama',
+    examples: [
+      { en: 'I have an appointment with the dentist at 3 p.m. tomorrow.' },
+      { en: 'Her appointment as the company\'s CEO was announced at the annual meeting.' }
+    ]
+  },
+  {
+    word: 'appreciate',
+    type: 'v.',
+    level: 'B1',
+    pronunciation: '/əˈpriːʃieɪt/',
+    meaning: 'takdir etmek, minnettar olmak',
+    examples: [
+      { en: 'I truly appreciate all the help you provided during the difficult project.' },
+      { en: 'She learned to appreciate the little things in life after going through a challenging period.' }
+    ]
+  },
+  {
+    word: 'approach',
+    type: 'v., n.',
+    level: 'B1',
+    pronunciation: '/əˈproʊtʃ/',
+    meaning: 'yaklaşmak, yaklaşım; yöntem, tutum',
+    examples: [
+      { en: 'The team decided to approach the problem from a new perspective.' },
       { en: 'Her friendly approach made it easy for everyone to communicate openly.' }
     ]
   },
@@ -1334,7 +2044,17 @@ import ,
     meaning: 'onaylayan, destekleyen',
     examples: [
       { en: 'She gave an approving nod when she heard the good news.' },
-      ,
+      { en: 'The manager had an approving smile after reviewing the successful report.' }
+    ]
+  },
+  {
+    word: 'approximate',
+    type: 'adj.',
+    level: 'B2',
+    pronunciation: '/əˈprɒksɪmət/',
+    meaning: 'yaklaşık, tahmini',
+    examples: [
+      { en: 'The approximate cost of the renovation was estimated to be around $5,000.' },
       { en: 'He gave an approximate figure since the exact amount was difficult to determine.' }
     ]
   },
@@ -1357,7 +2077,17 @@ import ,
     meaning: 'Nisan (ay)',
     examples: [
       { en: 'School usually starts in April in some countries.' },
-      ,
+      { en: 'The weather in April is often mild and pleasant.' }
+    ]
+  },
+  {
+    word: 'area',
+    type: 'n.',
+    level: 'A1',
+    pronunciation: '/ˈɛriə/',
+    meaning: 'alan, bölge',
+    examples: [
+      { en: 'The park covers a large area filled with trees and open fields.' },
       { en: 'They moved to a new area that is known for its excellent schools.' }
     ]
   },

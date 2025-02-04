@@ -6,7 +6,6 @@ import { oxford3000a } from './data/oxford3000a';
 import { oxford3000b } from './data/oxford3000b';
 import { oxford3000b2 } from './data/oxford3000b2';
 import { oxford3000c } from './data/oxford3000c';
-import { oxford3000c2 } from './data/oxford3000c2';
 import { oxford3000d } from './data/oxford3000d';
 import { oxford3000e } from './data/oxford3000e';
 import { oxford3000f } from './data/oxford3000f';
@@ -41,7 +40,7 @@ function App() {
   });
 
   const wordsPerPage = 12;
-  const words = [...oxford3000a, ...oxford3000b, ...oxford3000b2, ...oxford3000c, ...oxford3000c2, ...oxford3000d, ...oxford3000e, ...oxford3000f, ...oxford3000g, ...oxford3000h, ...oxford3000i, ...oxford3000j, ...oxford3000k, ...oxford3000l, ...oxford3000m, ...oxford3000n, ...oxford3000o, ...oxford3000p, ...oxford3000q, ...oxford3000r, ...oxford3000s, ...oxford3000t, ...oxford3000u, ...oxford3000v, ...oxford3000w, ...oxford3000y, ...oxford3000z];
+  const words = [...oxford3000a, ...oxford3000b, ...oxford3000b2, ...oxford3000c, ...oxford3000d, ...oxford3000e, ...oxford3000f, ...oxford3000g, ...oxford3000h, ...oxford3000i, ...oxford3000j, ...oxford3000k, ...oxford3000l, ...oxford3000m, ...oxford3000n, ...oxford3000o, ...oxford3000p, ...oxford3000q, ...oxford3000r, ...oxford3000s, ...oxford3000t, ...oxford3000u, ...oxford3000v, ...oxford3000w, ...oxford3000y, ...oxford3000z];
   
   // Calculate total and learned words
   const totalWords = words.length;
